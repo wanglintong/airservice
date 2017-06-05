@@ -1,0 +1,4052 @@
+<MSG>
+<APOT>
+    <CODE>XMN</CODE>
+    <FRCD>ZSAM</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>厦门</CNNM>
+    <ENNM>Xiamen</ENNM>
+    <AISO>O</AISO>
+    <APSN>厦</APSN>
+</APOT>
+<APOT>
+    <CODE>XNN</CODE>
+    <FRCD>ZLXN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>西宁</CNNM>
+    <ENNM>Xining</ENNM>
+    <AISO>O</AISO>
+    <APSN>西宁</APSN>
+</APOT>
+<APOT>
+    <CODE>XSP</CODE>
+    <FRCD>WSSL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>实里达</CNNM>
+    <ENNM>SHILITA</ENNM>
+    <AISO>O</AISO>
+    <APSN>实</APSN>
+</APOT>
+<APOT>
+    <CODE>YBP</CODE>
+    <FRCD>ZUYB</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>宜宾</CNNM>
+    <ENNM>Yibin</ENNM>
+    <AISO>O</AISO>
+    <APSN>宾</APSN>
+</APOT>
+<APOT>
+    <CODE>CSX</CODE>
+    <FRCD>ZGHA</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>长沙</CNNM>
+    <ENNM>Changsha</ENNM>
+    <AISO>O</AISO>
+    <APSN>湘</APSN>
+</APOT>
+<APOT>
+    <CODE>CTS</CODE>
+    <FRCD>RJCC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>扎幌</CNNM>
+    <ENNM>Chitose</ENNM>
+    <AISO>O</AISO>
+    <APSN>幌</APSN>
+</APOT>
+<APOT>
+    <CODE>DAC</CODE>
+    <FRCD>VGHS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>达卡</CNNM>
+    <ENNM>DHAKA</ENNM>
+    <AISO>O</AISO>
+    <APSN>达卡</APSN>
+</APOT>
+<APOT>
+    <CODE>DAT</CODE>
+    <FRCD>ZBDT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>大同</CNNM>
+    <ENNM>Datong</ENNM>
+    <AISO>O</AISO>
+    <APSN>同</APSN>
+</APOT>
+<APOT>
+    <CODE>DAX</CODE>
+    <FRCD>ZUDX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>达州</CNNM>
+    <ENNM>Dazhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>达</APSN>
+</APOT>
+<APOT>
+    <CODE>DAY</CODE>
+    <FRCD>DAYA</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>当阳</CNNM>
+    <ENNM>Dangyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>当</APSN>
+</APOT>
+<APOT>
+    <CODE>DDG</CODE>
+    <FRCD>ZYDD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>丹东</CNNM>
+    <ENNM>Dandong</ENNM>
+    <AISO>O</AISO>
+    <APSN>丹</APSN>
+</APOT>
+<APOT>
+    <CODE>DEL</CODE>
+    <FRCD>VIDP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>德里</CNNM>
+    <ENNM>DELHI</ENNM>
+    <AISO>O</AISO>
+    <APSN>德里</APSN>
+</APOT>
+<APOT>
+    <CODE>DFW</CODE>
+    <FRCD>KDFW</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>达拉斯</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>达拉斯</APSN>
+</APOT>
+<APOT>
+    <CODE>DIG</CODE>
+    <FRCD>ZPDQ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>迪庆</CNNM>
+    <ENNM>Diqing</ENNM>
+    <AISO>O</AISO>
+    <APSN>迪</APSN>
+</APOT>
+<APOT>
+    <CODE>DIL</CODE>
+    <FRCD>WPDL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>帝力</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>帝力</APSN>
+</APOT>
+<APOT>
+    <CODE>DJC</CODE>
+    <FRCD>ZSDJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>大校场</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>大校场</APSN>
+</APOT>
+<APOT>
+    <CODE>DJJ</CODE>
+    <FRCD>WAJJ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>森塔尼</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>森塔尼</APSN>
+</APOT>
+<APOT>
+    <CODE>DLC</CODE>
+    <FRCD>ZYTL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>大连</CNNM>
+    <ENNM>Dalian</ENNM>
+    <AISO>O</AISO>
+    <APSN>连</APSN>
+</APOT>
+<APOT>
+    <CODE>DLJ</CODE>
+    <FRCD>GAAB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>亚的</CNNM>
+    <ENNM>ADDISABABA</ENNM>
+    <AISO>O</AISO>
+    <APSN>亚</APSN>
+</APOT>
+<APOT>
+    <CODE>DLU</CODE>
+    <FRCD>ZPDL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>大理</CNNM>
+    <ENNM>Dali</ENNM>
+    <AISO>O</AISO>
+    <APSN>理</APSN>
+</APOT>
+<APOT>
+    <CODE>DMK</CODE>
+    <FRCD>VTBD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>曼谷廊曼</CNNM>
+    <ENNM>BANGKOK</ENNM>
+    <AISO>O</AISO>
+    <APSN>曼谷</APSN>
+</APOT>
+<APOT>
+    <CODE>DNH</CODE>
+    <FRCD>ZLDH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>敦煌</CNNM>
+    <ENNM>Dunhuang</ENNM>
+    <AISO>O</AISO>
+    <APSN>敦</APSN>
+</APOT>
+<APOT>
+    <CODE>DOH</CODE>
+    <FRCD>OTBD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>多哈</CNNM>
+    <ENNM>DOHA</ENNM>
+    <AISO>O</AISO>
+    <APSN>多哈</APSN>
+</APOT>
+<APOT>
+    <CODE>DOY</CODE>
+    <FRCD>ZSDY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>东营</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>营</APSN>
+</APOT>
+<APOT>
+    <CODE>DPS</CODE>
+    <FRCD>WRRR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴厘</CNNM>
+    <ENNM>BALI</ENNM>
+    <AISO>O</AISO>
+    <APSN>厘</APSN>
+</APOT>
+<APOT>
+    <CODE>DQA</CODE>
+    <FRCD>ZYDQ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>大庆</CNNM>
+    <ENNM>Daqing</ENNM>
+    <AISO>O</AISO>
+    <APSN>大庆</APSN>
+</APOT>
+<APOT>
+    <CODE>DRW</CODE>
+    <FRCD>YPDN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>达尔文</CNNM>
+    <ENNM>DARWIN</ENNM>
+    <AISO>O</AISO>
+    <APSN>文</APSN>
+</APOT>
+<APOT>
+    <CODE>DSN</CODE>
+    <FRCD>ZBDS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>鄂尔多斯</CNNM>
+    <ENNM>Eerduosi</ENNM>
+    <AISO>O</AISO>
+    <APSN>鄂</APSN>
+</APOT>
+<APOT>
+    <CODE>DVO</CODE>
+    <FRCD>RPMD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>达沃</CNNM>
+    <ENNM>DAVAO</ENNM>
+    <AISO>O</AISO>
+    <APSN>沃</APSN>
+</APOT>
+<APOT>
+    <CODE>DXB</CODE>
+    <FRCD>OMDB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>迪拜</CNNM>
+    <ENNM>DUBAI</ENNM>
+    <AISO>O</AISO>
+    <APSN>迪拜</APSN>
+</APOT>
+<APOT>
+    <CODE>DYG</CODE>
+    <FRCD>ZGDY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>张家界</CNNM>
+    <ENNM>Dayong</ENNM>
+    <AISO>O</AISO>
+    <APSN>庸</APSN>
+</APOT>
+<APOT>
+    <CODE>DYY</CODE>
+    <FRCD>DDYY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>当阳</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>当阳</APSN>
+</APOT>
+<APOT>
+    <CODE>ENH</CODE>
+    <FRCD>ZHES</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>恩施</CNNM>
+    <ENNM>Enshi</ENNM>
+    <AISO>O</AISO>
+    <APSN>恩</APSN>
+</APOT>
+<APOT>
+    <CODE>ENY</CODE>
+    <FRCD>ZLYA</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>延安</CNNM>
+    <ENNM>Yan'an</ENNM>
+    <AISO>O</AISO>
+    <APSN>安</APSN>
+</APOT>
+<APOT>
+    <CODE>EWR</CODE>
+    <FRCD>KEWR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>纽瓦克</CNNM>
+    <ENNM>NEWARK</ENNM>
+    <AISO>O</AISO>
+    <APSN>纽</APSN>
+</APOT>
+<APOT>
+    <CODE>FAI</CODE>
+    <FRCD>PAFA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>费尔班克斯</CNNM>
+    <ENNM>FAIRBANKS</ENNM>
+    <AISO>O</AISO>
+    <APSN>费尔</APSN>
+</APOT>
+<APOT>
+    <CODE>FCO</CODE>
+    <FRCD>LIRF</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>罗马</CNNM>
+    <ENNM>ROMA</ENNM>
+    <AISO>O</AISO>
+    <APSN>罗</APSN>
+</APOT>
+<APOT>
+    <CODE>FKS</CODE>
+    <FRCD>RJSF</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>福岛</CNNM>
+    <ENNM>FUKESHIMA</ENNM>
+    <AISO>O</AISO>
+    <APSN>福岛</APSN>
+</APOT>
+<APOT>
+    <CODE>FNJ</CODE>
+    <FRCD>ZKPY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>平壤</CNNM>
+    <ENNM>PYONGYANG</ENNM>
+    <AISO>O</AISO>
+    <APSN>平壤</APSN>
+</APOT>
+<APOT>
+    <CODE>FOC</CODE>
+    <FRCD>ZSFZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>福州</CNNM>
+    <ENNM>Fuzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>榕</APSN>
+</APOT>
+<APOT>
+    <CODE>YCU</CODE>
+    <FRCD>ZBYC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>运城</CNNM>
+    <ENNM>Yuncheng</ENNM>
+    <AISO>O</AISO>
+    <APSN>运</APSN>
+</APOT>
+<APOT>
+    <CODE>YGD</CODE>
+    <FRCD>ZGYD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>英德</CNNM>
+    <ENNM>Yingde</ENNM>
+    <AISO>O</AISO>
+    <APSN>英</APSN>
+</APOT>
+<APOT>
+    <CODE>YIH</CODE>
+    <FRCD>ZHYC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>宜昌</CNNM>
+    <ENNM>Yichang</ENNM>
+    <AISO>O</AISO>
+    <APSN>宜</APSN>
+</APOT>
+<APOT>
+    <CODE>YIN</CODE>
+    <FRCD>ZWYN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>伊宁</CNNM>
+    <ENNM>Yining</ENNM>
+    <AISO>O</AISO>
+    <APSN>伊</APSN>
+</APOT>
+<APOT>
+    <CODE>YIW</CODE>
+    <FRCD>ZSYW</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>义乌</CNNM>
+    <ENNM>Yiwu</ENNM>
+    <AISO>O</AISO>
+    <APSN>义</APSN>
+</APOT>
+<APOT>
+    <CODE>AAB</CODE>
+    <FRCD>AAAB</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>应山</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>应山</APSN>
+</APOT>
+<APOT>
+    <CODE>AAN</CODE>
+    <FRCD>OMAL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>艾因</CNNM>
+    <ENNM>Al ain</ENNM>
+    <AISO>O</AISO>
+    <APSN>艾因</APSN>
+</APOT>
+<APOT>
+    <CODE>AAQ</CODE>
+    <FRCD>URKA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿纳帕</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>阿纳帕</APSN>
+</APOT>
+<APOT>
+    <CODE>ABA</CODE>
+    <FRCD>UNAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿巴坎</CNNM>
+    <ENNM>ABAKAN</ENNM>
+    <AISO>O</AISO>
+    <APSN>阿巴坎</APSN>
+</APOT>
+<APOT>
+    <CODE>ACX</CODE>
+    <FRCD>ZUYI</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>兴义</CNNM>
+    <ENNM>Xingyi</ENNM>
+    <AISO>O</AISO>
+    <APSN>兴义</APSN>
+</APOT>
+<APOT>
+    <CODE>ADD</CODE>
+    <FRCD>HAAB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>亚得</CNNM>
+    <ENNM>Addis Ababa</ENNM>
+    <AISO>O</AISO>
+    <APSN>亚得</APSN>
+</APOT>
+<APOT>
+    <CODE>ADJ</CODE>
+    <FRCD>OJAM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>安曼</CNNM>
+    <ENNM>MARKA</ENNM>
+    <AISO>O</AISO>
+    <APSN>安曼</APSN>
+</APOT>
+<APOT>
+    <CODE>ADL</CODE>
+    <FRCD>YPAD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿德莱德</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>阿德莱德</APSN>
+</APOT>
+<APOT>
+    <CODE>AEB</CODE>
+    <FRCD>ZGBS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>百色</CNNM>
+    <ENNM>Bose</ENNM>
+    <AISO>O</AISO>
+    <APSN>百色</APSN>
+</APOT>
+<APOT>
+    <CODE>AKM</CODE>
+    <FRCD>UACC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿克</CNNM>
+    <ENNM>AKMOLA</ENNM>
+    <AISO>O</AISO>
+    <APSN>阿克</APSN>
+</APOT>
+<APOT>
+    <CODE>ALA</CODE>
+    <FRCD>UAAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿拉木图</CNNM>
+    <ENNM>ALMATY</ENNM>
+    <AISO>O</AISO>
+    <APSN>木图</APSN>
+</APOT>
+<APOT>
+    <CODE>ALS</CODE>
+    <FRCD>ALSC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿拉斯加</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>阿拉斯加</APSN>
+</APOT>
+<APOT>
+    <CODE>AMD</CODE>
+    <FRCD>VAAH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>艾哈迈德巴</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>艾德</APSN>
+</APOT>
+<APOT>
+    <CODE>AMQ</CODE>
+    <FRCD>WAPP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>安汶</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>安</APSN>
+</APOT>
+<APOT>
+    <CODE>AMS</CODE>
+    <FRCD>EHAM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿姆斯特丹</CNNM>
+    <ENNM>AMSTERDAN</ENNM>
+    <AISO>O</AISO>
+    <APSN>阿姆</APSN>
+</APOT>
+<APOT>
+    <CODE>SWA</CODE>
+    <FRCD>ZGOW</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>揭阳</CNNM>
+    <ENNM>Chaoshan</ENNM>
+    <AISO>O</AISO>
+    <APSN>汕</APSN>
+</APOT>
+<APOT>
+    <CODE>SXF</CODE>
+    <FRCD>ETBS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>柏林</CNNM>
+    <ENNM>Berlin</ENNM>
+    <AISO>O</AISO>
+    <APSN>柏</APSN>
+</APOT>
+<APOT>
+    <CODE>SYD</CODE>
+    <FRCD>YSSY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>悉尼</CNNM>
+    <ENNM>Sydney</ENNM>
+    <AISO>O</AISO>
+    <APSN>悉</APSN>
+</APOT>
+<APOT>
+    <CODE>SYX</CODE>
+    <FRCD>ZJSY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>三亚</CNNM>
+    <ENNM>Sanya</ENNM>
+    <AISO>O</AISO>
+    <APSN>崖</APSN>
+</APOT>
+<APOT>
+    <CODE>SZB</CODE>
+    <FRCD>WMSA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>梳邦</CNNM>
+    <ENNM>SUBANG</ENNM>
+    <AISO>O</AISO>
+    <APSN>梳</APSN>
+</APOT>
+<APOT>
+    <CODE>SZW</CODE>
+    <FRCD>EDFP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>帕希姆</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>帕</APSN>
+</APOT>
+<APOT>
+    <CODE>TAE</CODE>
+    <FRCD>RKTN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>大邱</CNNM>
+    <ENNM>TAEGU</ENNM>
+    <AISO>O</AISO>
+    <APSN>邱</APSN>
+</APOT>
+<APOT>
+    <CODE>TAK</CODE>
+    <FRCD>RJOT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>日本高松</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>松</APSN>
+</APOT>
+<APOT>
+    <CODE>TAS</CODE>
+    <FRCD>UTTT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>塔什干</CNNM>
+    <ENNM>Tashkent</ENNM>
+    <AISO>O</AISO>
+    <APSN>塔</APSN>
+</APOT>
+<APOT>
+    <CODE>TCZ</CODE>
+    <FRCD>ZUTC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>腾冲</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>腾冲</APSN>
+</APOT>
+<APOT>
+    <CODE>TEK</CODE>
+    <FRCD>LTBU</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>泰基尔达</CNNM>
+    <ENNM>TEKIRDAG</ENNM>
+    <AISO>O</AISO>
+    <APSN>泰</APSN>
+</APOT>
+<APOT>
+    <CODE>TEN</CODE>
+    <FRCD>ZUTR</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>铜仁</CNNM>
+    <ENNM>Tongren</ENNM>
+    <AISO>O</AISO>
+    <APSN>铜</APSN>
+</APOT>
+<APOT>
+    <CODE>TGO</CODE>
+    <FRCD>ZBTL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>通辽</CNNM>
+    <ENNM>Tongliao</ENNM>
+    <AISO>O</AISO>
+    <APSN>通</APSN>
+</APOT>
+<APOT>
+    <CODE>THR</CODE>
+    <FRCD>OIII</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>德黑兰</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>德黑兰</APSN>
+</APOT>
+<APOT>
+    <CODE>TKS</CODE>
+    <FRCD>RJOS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>德岛</CNNM>
+    <ENNM>Tokushima</ENNM>
+    <AISO>O</AISO>
+    <APSN>德岛</APSN>
+</APOT>
+<APOT>
+    <CODE>TLL</CODE>
+    <FRCD>EETN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>塔林</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>塔林</APSN>
+</APOT>
+<APOT>
+    <CODE>TLV</CODE>
+    <FRCD>LLBG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>特拉维夫</CNNM>
+    <ENNM>Telaviv</ENNM>
+    <AISO>O</AISO>
+    <APSN>特</APSN>
+</APOT>
+<APOT>
+    <CODE>TOY</CODE>
+    <FRCD>RJNT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>富山</CNNM>
+    <ENNM>Fushan</ENNM>
+    <AISO>O</AISO>
+    <APSN>富</APSN>
+</APOT>
+<APOT>
+    <CODE>TPE</CODE>
+    <FRCD>RCTP</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>台北桃园</CNNM>
+    <ENNM>Taipei Taoyuan</ENNM>
+    <AISO>O</AISO>
+    <APSN>桃</APSN>
+</APOT>
+<APOT>
+    <CODE>TSA</CODE>
+    <FRCD>RCSS</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>台北松山</CNNM>
+    <ENNM>Taipei Sungshan</ENNM>
+    <AISO>O</AISO>
+    <APSN>松</APSN>
+</APOT>
+<APOT>
+    <CODE>TSE</CODE>
+    <FRCD>ASTN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿斯塔纳</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>纳</APSN>
+</APOT>
+<APOT>
+    <CODE>FRA</CODE>
+    <FRCD>EDDF</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>法兰克福</CNNM>
+    <ENNM>FRANKFURT</ENNM>
+    <AISO>O</AISO>
+    <APSN>法</APSN>
+</APOT>
+<APOT>
+    <CODE>FRU</CODE>
+    <FRCD>UAFM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>比什凯克</CNNM>
+    <ENNM>FRUNZE</ENNM>
+    <AISO>O</AISO>
+    <APSN>比什凯克</APSN>
+</APOT>
+<APOT>
+    <CODE>FUG</CODE>
+    <FRCD>ZSFY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>阜阳</CNNM>
+    <ENNM>Fuyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>阜</APSN>
+</APOT>
+<APOT>
+    <CODE>FUK</CODE>
+    <FRCD>RJFF</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>福冈</CNNM>
+    <ENNM>FUKUOKA</ENNM>
+    <AISO>O</AISO>
+    <APSN>冈</APSN>
+</APOT>
+<APOT>
+    <CODE>FUO</CODE>
+    <FRCD>ZGFS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>佛山</CNNM>
+    <ENNM>Foshan</ENNM>
+    <AISO>O</AISO>
+    <APSN>佛</APSN>
+</APOT>
+<APOT>
+    <CODE>GHN</CODE>
+    <FRCD>ZUGH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>广汉</CNNM>
+    <ENNM>Guanghan</ENNM>
+    <AISO>O</AISO>
+    <APSN>广</APSN>
+</APOT>
+<APOT>
+    <CODE>GOQ</CODE>
+    <FRCD>ZLGM</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>格尔木</CNNM>
+    <ENNM>Geermu</ENNM>
+    <AISO>O</AISO>
+    <APSN>格</APSN>
+</APOT>
+<APOT>
+    <CODE>GUM</CODE>
+    <FRCD>PGUM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>关岛</CNNM>
+    <ENNM>GUAM</ENNM>
+    <AISO>O</AISO>
+    <APSN>关岛</APSN>
+</APOT>
+<APOT>
+    <CODE>HAN</CODE>
+    <FRCD>VVNB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>河内</CNNM>
+    <ENNM>HANOI</ENNM>
+    <AISO>O</AISO>
+    <APSN>内</APSN>
+</APOT>
+<APOT>
+    <CODE>HDG</CODE>
+    <FRCD>ZBHD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>邯郸</CNNM>
+    <ENNM>Handan</ENNM>
+    <AISO>O</AISO>
+    <APSN>邯</APSN>
+</APOT>
+<APOT>
+    <CODE>HEL</CODE>
+    <FRCD>EFHK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>赫</CNNM>
+    <ENNM>HELSINKI</ENNM>
+    <AISO>O</AISO>
+    <APSN>赫</APSN>
+</APOT>
+<APOT>
+    <CODE>HET</CODE>
+    <FRCD>ZBHH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>呼和浩特</CNNM>
+    <ENNM>Hohhot</ENNM>
+    <AISO>O</AISO>
+    <APSN>呼</APSN>
+</APOT>
+<APOT>
+    <CODE>HHE</CODE>
+    <FRCD>ZYHE</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>黑河</CNNM>
+    <ENNM>Heihe</ENNM>
+    <AISO>O</AISO>
+    <APSN>黑河</APSN>
+</APOT>
+<APOT>
+    <CODE>HIA</CODE>
+    <FRCD>ZSSH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>淮安</CNNM>
+    <ENNM>HuaiAn</ENNM>
+    <AISO>O</AISO>
+    <APSN>淮</APSN>
+</APOT>
+<APOT>
+    <CODE>HIJ</CODE>
+    <FRCD>RJOA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>广岛</CNNM>
+    <ENNM>HIROSHIMA</ENNM>
+    <AISO>O</AISO>
+    <APSN>广岛</APSN>
+</APOT>
+<APOT>
+    <CODE>HJJ</CODE>
+    <FRCD>ZGCJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>怀化</CNNM>
+    <ENNM>HuaiHua</ENNM>
+    <AISO>O</AISO>
+    <APSN>怀化</APSN>
+</APOT>
+<APOT>
+    <CODE>HKD</CODE>
+    <FRCD>BJCH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>函馆</CNNM>
+    <ENNM>HAKODATE</ENNM>
+    <AISO>O</AISO>
+    <APSN>函</APSN>
+</APOT>
+<APOT>
+    <CODE>HKG</CODE>
+    <FRCD>VHHH</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>香港</CNNM>
+    <ENNM>HONGKONG</ENNM>
+    <AISO>O</AISO>
+    <APSN>港</APSN>
+</APOT>
+<APOT>
+    <CODE>HKT</CODE>
+    <FRCD>VTSP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>普吉岛</CNNM>
+    <ENNM>PHUKET</ENNM>
+    <AISO>O</AISO>
+    <APSN>普</APSN>
+</APOT>
+<APOT>
+    <CODE>HLD</CODE>
+    <FRCD>ZBLA</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>海拉尔</CNNM>
+    <ENNM>Haila'er</ENNM>
+    <AISO>O</AISO>
+    <APSN>海</APSN>
+</APOT>
+<APOT>
+    <CODE>HLH</CODE>
+    <FRCD>ZBUL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>乌兰浩特</CNNM>
+    <ENNM>Wulanhaote</ENNM>
+    <AISO>O</AISO>
+    <APSN>浩</APSN>
+</APOT>
+<APOT>
+    <CODE>HMI</CODE>
+    <FRCD>ZWHM</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>哈密</CNNM>
+    <ENNM>Hami</ENNM>
+    <AISO>O</AISO>
+    <APSN>密</APSN>
+</APOT>
+<APOT>
+    <CODE>HND</CODE>
+    <FRCD>RJTT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>羽田</CNNM>
+    <ENNM>Haneda</ENNM>
+    <AISO>O</AISO>
+    <APSN>羽</APSN>
+</APOT>
+<APOT>
+    <CODE>HNL</CODE>
+    <FRCD>PHNL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>檀香山</CNNM>
+    <ENNM>HONOLULU</ENNM>
+    <AISO>O</AISO>
+    <APSN>檀香山</APSN>
+</APOT>
+<APOT>
+    <CODE>HNY</CODE>
+    <FRCD>ZGHY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>衡阳</CNNM>
+    <ENNM>Hengyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>衡</APSN>
+</APOT>
+<APOT>
+    <CODE>HSG</CODE>
+    <FRCD>RJFS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>佐贺</CNNM>
+    <ENNM>SAGA</ENNM>
+    <AISO>O</AISO>
+    <APSN>佐贺</APSN>
+</APOT>
+<APOT>
+    <CODE>HSN</CODE>
+    <FRCD>ZSZS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>舟山</CNNM>
+    <ENNM>Zhoushan</ENNM>
+    <AISO>O</AISO>
+    <APSN>舟</APSN>
+</APOT>
+<APOT>
+    <CODE>YJA</CODE>
+    <FRCD>ZGYJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>阳江</CNNM>
+    <ENNM>Yangjiang</ENNM>
+    <AISO>O</AISO>
+    <APSN>阳</APSN>
+</APOT>
+<APOT>
+    <CODE>YNJ</CODE>
+    <FRCD>ZYYJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>延吉</CNNM>
+    <ENNM>Yanji</ENNM>
+    <AISO>O</AISO>
+    <APSN>延</APSN>
+</APOT>
+<APOT>
+    <CODE>YNT</CODE>
+    <FRCD>ZSYT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>烟台</CNNM>
+    <ENNM>Yantai</ENNM>
+    <AISO>O</AISO>
+    <APSN>烟</APSN>
+</APOT>
+<APOT>
+    <CODE>YNZ</CODE>
+    <FRCD>ZSYN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>盐城</CNNM>
+    <ENNM>Yancheng</ENNM>
+    <AISO>O</AISO>
+    <APSN>盐城</APSN>
+</APOT>
+<APOT>
+    <CODE>YTY</CODE>
+    <FRCD>ZSYA</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>扬州</CNNM>
+    <ENNM>Yangzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>扬</APSN>
+</APOT>
+<APOT>
+    <CODE>YVR</CODE>
+    <FRCD>CYVR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>温哥华</CNNM>
+    <ENNM>Vancouver</ENNM>
+    <AISO>O</AISO>
+    <APSN>哥</APSN>
+</APOT>
+<APOT>
+    <CODE>YXG</CODE>
+    <FRCD>ZJYX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>西沙</CNNM>
+    <ENNM>Xisha</ENNM>
+    <AISO>O</AISO>
+    <APSN>西沙</APSN>
+</APOT>
+<APOT>
+    <CODE>YYZ</CODE>
+    <FRCD>CYYZ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>多伦多</CNNM>
+    <ENNM>Toronto</ENNM>
+    <AISO>O</AISO>
+    <APSN>多</APSN>
+</APOT>
+<APOT>
+    <CODE>ZAM</CODE>
+    <FRCD>RPMZ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>山宝颜</CNNM>
+    <ENNM>ZAMBOANGA</ENNM>
+    <AISO>O</AISO>
+    <APSN>颜</APSN>
+</APOT>
+<APOT>
+    <CODE>ZAT</CODE>
+    <FRCD>ZPZT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>昭通</CNNM>
+    <ENNM>Zhaotong</ENNM>
+    <AISO>O</AISO>
+    <APSN>昭</APSN>
+</APOT>
+<APOT>
+    <CODE>CKG</CODE>
+    <FRCD>ZUCK</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>重庆</CNNM>
+    <ENNM>Chongqing</ENNM>
+    <AISO>O</AISO>
+    <APSN>渝</APSN>
+</APOT>
+<APOT>
+    <CODE>ZHA</CODE>
+    <FRCD>ZGZJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>湛江</CNNM>
+    <ENNM>Zhanjiang</ENNM>
+    <AISO>O</AISO>
+    <APSN>湛</APSN>
+</APOT>
+<APOT>
+    <CODE>ZHZ</CODE>
+    <FRCD>ZSZZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>漳州</CNNM>
+    <ENNM>ZHANGZHOU</ENNM>
+    <AISO>O</AISO>
+    <APSN>漳</APSN>
+</APOT>
+<APOT>
+    <CODE>ZUH</CODE>
+    <FRCD>ZGSD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>珠海</CNNM>
+    <ENNM>Zhuhai</ENNM>
+    <AISO>O</AISO>
+    <APSN>珠</APSN>
+</APOT>
+<APOT>
+    <CODE>SYM</CODE>
+    <FRCD>ZPSM</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>思茅</CNNM>
+    <ENNM>Simao</ENNM>
+    <AISO>O</AISO>
+    <APSN>思</APSN>
+</APOT>
+<APOT>
+    <CODE>INC</CODE>
+    <FRCD>ZLIC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>银川</CNNM>
+    <ENNM>Yinchuan</ENNM>
+    <AISO>O</AISO>
+    <APSN>银</APSN>
+</APOT>
+<APOT>
+    <CODE>IND</CODE>
+    <FRCD>KIND</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>印第安纳</CNNM>
+    <ENNM>INDIANAPOLIS</ENNM>
+    <AISO>O</AISO>
+    <APSN>印第</APSN>
+</APOT>
+<APOT>
+    <CODE>ISB</CODE>
+    <FRCD>OPRN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>伊斯兰堡</CNNM>
+    <ENNM>ISLAMABAD</ENNM>
+    <AISO>O</AISO>
+    <APSN>堡</APSN>
+</APOT>
+<APOT>
+    <CODE>IST</CODE>
+    <FRCD>LTBA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿塔</CNNM>
+    <ENNM>ISTANBUL</ENNM>
+    <AISO>O</AISO>
+    <APSN>阿塔</APSN>
+</APOT>
+<APOT>
+    <CODE>JFK</CODE>
+    <FRCD>KJFK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>纽约</CNNM>
+    <ENNM>NEWYORK</ENNM>
+    <AISO>O</AISO>
+    <APSN>纽约</APSN>
+</APOT>
+<APOT>
+    <CODE>JGN</CODE>
+    <FRCD>ZLJQ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>嘉峪关</CNNM>
+    <ENNM>Jiayuguan</ENNM>
+    <AISO>O</AISO>
+    <APSN>嘉</APSN>
+</APOT>
+<APOT>
+    <CODE>JGS</CODE>
+    <FRCD>ZSGS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>井岗山</CNNM>
+    <ENNM>Jinggangshan</ENNM>
+    <AISO>O</AISO>
+    <APSN>井</APSN>
+</APOT>
+<APOT>
+    <CODE>JHB</CODE>
+    <FRCD>WMKJ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>新山</CNNM>
+    <ENNM>XinShan</ENNM>
+    <AISO>O</AISO>
+    <APSN>新山</APSN>
+</APOT>
+<APOT>
+    <CODE>JHG</CODE>
+    <FRCD>ZPJH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>西双版纳</CNNM>
+    <ENNM>Xishuangbanna</ENNM>
+    <AISO>O</AISO>
+    <APSN>版</APSN>
+</APOT>
+<APOT>
+    <CODE>JIL</CODE>
+    <FRCD>ZYJL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>吉林</CNNM>
+    <ENNM>Jilin</ENNM>
+    <AISO>O</AISO>
+    <APSN>吉</APSN>
+</APOT>
+<APOT>
+    <CODE>JIU</CODE>
+    <FRCD>ZSJJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>九江</CNNM>
+    <ENNM>Jiujiang</ENNM>
+    <AISO>O</AISO>
+    <APSN>九</APSN>
+</APOT>
+<APOT>
+    <CODE>JJN</CODE>
+    <FRCD>ZSQZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>泉州</CNNM>
+    <ENNM>Quanzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>泉</APSN>
+</APOT>
+<APOT>
+    <CODE>JNB</CODE>
+    <FRCD>FAJS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>约翰</CNNM>
+    <ENNM>JOHANNESBURG</ENNM>
+    <AISO>O</AISO>
+    <APSN>约翰</APSN>
+</APOT>
+<APOT>
+    <CODE>JNZ</CODE>
+    <FRCD>ZYJZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>锦州</CNNM>
+    <ENNM>Jinzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>锦</APSN>
+</APOT>
+<APOT>
+    <CODE>JOG</CODE>
+    <FRCD>WARJ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>惹</CNNM>
+    <ENNM>ADI SUTJIPTO</ENNM>
+    <AISO>O</AISO>
+    <APSN>惹</APSN>
+</APOT>
+<APOT>
+    <CODE>JQN</CODE>
+    <FRCD>ZLDI</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>酒泉</CNNM>
+    <ENNM>Jiuquan</ENNM>
+    <AISO>O</AISO>
+    <APSN>酒</APSN>
+</APOT>
+<APOT>
+    <CODE>JUH</CODE>
+    <FRCD>ZGUH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>珠海九州</CNNM>
+    <ENNM>Zhuhai</ENNM>
+    <AISO>O</AISO>
+    <APSN>九州</APSN>
+</APOT>
+<APOT>
+    <CODE>JUZ</CODE>
+    <FRCD>ZSJU</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>衢州</CNNM>
+    <ENNM>Quzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>衢</APSN>
+</APOT>
+<APOT>
+    <CODE>JZH</CODE>
+    <FRCD>ZUJZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>九寨沟</CNNM>
+    <ENNM>Jiuzhaigou</ENNM>
+    <AISO>O</AISO>
+    <APSN>寨</APSN>
+</APOT>
+<APOT>
+    <CODE>KBL</CODE>
+    <FRCD>OAKB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>喀布尔</CNNM>
+    <ENNM>KABUL</ENNM>
+    <AISO>O</AISO>
+    <APSN>喀</APSN>
+</APOT>
+<APOT>
+    <CODE>KBV</CODE>
+    <FRCD>VTSG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>甲米</CNNM>
+    <ENNM>KRABI</ENNM>
+    <AISO>O</AISO>
+    <APSN>甲米</APSN>
+</APOT>
+<APOT>
+    <CODE>KCH</CODE>
+    <FRCD>WBGG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>古晋</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>古</APSN>
+</APOT>
+<APOT>
+    <CODE>KEJ</CODE>
+    <FRCD>UNEE</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>克麦罗沃</CNNM>
+    <ENNM>KEMEROVO</ENNM>
+    <AISO>O</AISO>
+    <APSN>克麦</APSN>
+</APOT>
+<APOT>
+    <CODE>KFG</CODE>
+    <FRCD>ZBKF</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>开封</CNNM>
+    <ENNM>Kaifeng</ENNM>
+    <AISO>O</AISO>
+    <APSN>开封</APSN>
+</APOT>
+<APOT>
+    <CODE>KGF</CODE>
+    <FRCD>UAKK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>卡拉干达</CNNM>
+    <ENNM>KARAGANDA</ENNM>
+    <AISO>O</AISO>
+    <APSN>卡拉</APSN>
+</APOT>
+<APOT>
+    <CODE>KHG</CODE>
+    <FRCD>ZWSH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>喀什</CNNM>
+    <ENNM>Kashi</ENNM>
+    <AISO>O</AISO>
+    <APSN>喀</APSN>
+</APOT>
+<APOT>
+    <CODE>KHH</CODE>
+    <FRCD>RCKH</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>高雄</CNNM>
+    <ENNM>Kaohsiung</ENNM>
+    <AISO>O</AISO>
+    <APSN>雄</APSN>
+</APOT>
+<APOT>
+    <CODE>KHI</CODE>
+    <FRCD>OPKC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>卡拉奇</CNNM>
+    <ENNM>KARACHI</ENNM>
+    <AISO>O</AISO>
+    <APSN>卡</APSN>
+</APOT>
+<APOT>
+    <CODE>KHN</CODE>
+    <FRCD>ZSCN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南昌</CNNM>
+    <ENNM>Nanchang</ENNM>
+    <AISO>O</AISO>
+    <APSN>昌</APSN>
+</APOT>
+<APOT>
+    <CODE>KHV</CODE>
+    <FRCD>UHHH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>哈巴</CNNM>
+    <ENNM>KHABAROVSK</ENNM>
+    <AISO>O</AISO>
+    <APSN>哈巴</APSN>
+</APOT>
+<APOT>
+    <CODE>KIJ</CODE>
+    <FRCD>RJSN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>新县</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>新县</APSN>
+</APOT>
+<APOT>
+    <CODE>KIX</CODE>
+    <FRCD>RJBB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>大阪</CNNM>
+    <ENNM>KANSAI</ENNM>
+    <AISO>O</AISO>
+    <APSN>阪</APSN>
+</APOT>
+<APOT>
+    <CODE>KJA</CODE>
+    <FRCD>UNKL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>克诺</CNNM>
+    <ENNM>KRASNOYARSK</ENNM>
+    <AISO>O</AISO>
+    <APSN>诺</APSN>
+</APOT>
+<APOT>
+    <CODE>KKJ</CODE>
+    <FRCD>RJFR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>北九州</CNNM>
+    <ENNM>KITA KYUSHU</ENNM>
+    <AISO>O</AISO>
+    <APSN>九州</APSN>
+</APOT>
+<APOT>
+    <CODE>KMI</CODE>
+    <FRCD>RJFM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>宫崎</CNNM>
+    <ENNM>MIYAZAKI</ENNM>
+    <AISO>O</AISO>
+    <APSN>宫</APSN>
+</APOT>
+<APOT>
+    <CODE>KMJ</CODE>
+    <FRCD>RJFT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>熊本</CNNM>
+    <ENNM>KUMAMOTO</ENNM>
+    <AISO>O</AISO>
+    <APSN>熊</APSN>
+</APOT>
+<APOT>
+    <CODE>KMQ</CODE>
+    <FRCD>RJNK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>小松</CNNM>
+    <ENNM>KOMATSU</ENNM>
+    <AISO>O</AISO>
+    <APSN>小松</APSN>
+</APOT>
+<APOT>
+    <CODE>KOA</CODE>
+    <FRCD>PHKO</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>科纳</CNNM>
+    <ENNM>KONA</ENNM>
+    <AISO>O</AISO>
+    <APSN>科纳</APSN>
+</APOT>
+<APOT>
+    <CODE>KOE</CODE>
+    <FRCD>WATT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>古邦</CNNM>
+    <ENNM>ELTARI</ENNM>
+    <AISO>O</AISO>
+    <APSN>古邦</APSN>
+</APOT>
+<APOT>
+    <CODE>KOJ</CODE>
+    <FRCD>RJFK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>鹿</CNNM>
+    <ENNM>KAGOSHIMA</ENNM>
+    <AISO>O</AISO>
+    <APSN>鹿</APSN>
+</APOT>
+<APOT>
+    <CODE>KOW</CODE>
+    <FRCD>ZSGZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>赣州</CNNM>
+    <ENNM>Ganzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>赣</APSN>
+</APOT>
+<APOT>
+    <CODE>KRL</CODE>
+    <FRCD>ZWKL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>库尔勒</CNNM>
+    <ENNM>Kuerle</ENNM>
+    <AISO>O</AISO>
+    <APSN>库</APSN>
+</APOT>
+<APOT>
+    <CODE>KRY</CODE>
+    <FRCD>ZWKM</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>克拉玛依</CNNM>
+    <ENNM>Kelamayi</ENNM>
+    <AISO>O</AISO>
+    <APSN>克</APSN>
+</APOT>
+<APOT>
+    <CODE>KTM</CODE>
+    <FRCD>VNKT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>加德</CNNM>
+    <ENNM>KATHMANDU</ENNM>
+    <AISO>O</AISO>
+    <APSN>加德</APSN>
+</APOT>
+<APOT>
+    <CODE>KUL</CODE>
+    <FRCD>WMKK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>吉隆坡</CNNM>
+    <ENNM>KUALA LUMPUR</ENNM>
+    <AISO>O</AISO>
+    <APSN>隆</APSN>
+</APOT>
+<APOT>
+    <CODE>KZN</CODE>
+    <FRCD>UWKD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>喀山</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>喀</APSN>
+</APOT>
+<APOT>
+    <CODE>LAO</CODE>
+    <FRCD>RPLI</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>拉瓦格</CNNM>
+    <ENNM>LAOAG</ENNM>
+    <AISO>O</AISO>
+    <APSN>瓦</APSN>
+</APOT>
+<APOT>
+    <CODE>LAX</CODE>
+    <FRCD>KLAX</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>洛杉矶</CNNM>
+    <ENNM>LOS ANGELES</ENNM>
+    <AISO>O</AISO>
+    <APSN>矶</APSN>
+</APOT>
+<APOT>
+    <CODE>LCA</CODE>
+    <FRCD>LCLK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>拉纳卡</CNNM>
+    <ENNM>lanaka</ENNM>
+    <AISO>O</AISO>
+    <APSN>拉</APSN>
+</APOT>
+<APOT>
+    <CODE>LCX</CODE>
+    <FRCD>ZSLO</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>连城</CNNM>
+    <ENNM>Liancheng</ENNM>
+    <AISO>O</AISO>
+    <APSN>连城</APSN>
+</APOT>
+<APOT>
+    <CODE>LEA</CODE>
+    <FRCD>ZGLY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>耒阳</CNNM>
+    <ENNM>Leiyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>耒</APSN>
+</APOT>
+<APOT>
+    <CODE>LEJ</CODE>
+    <FRCD>EDDP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>莱比锡</CNNM>
+    <ENNM>LEIPZIG</ENNM>
+    <AISO>O</AISO>
+    <APSN>莱</APSN>
+</APOT>
+<APOT>
+    <CODE>LGG</CODE>
+    <FRCD>EBLG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>列日</CNNM>
+    <ENNM>LIEGE</ENNM>
+    <AISO>O</AISO>
+    <APSN>列</APSN>
+</APOT>
+<APOT>
+    <CODE>LGK</CODE>
+    <FRCD>WMKL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>凌家卫</CNNM>
+    <ENNM>PULAU LANGKAWI</ENNM>
+    <AISO>O</AISO>
+    <APSN>凌</APSN>
+</APOT>
+<APOT>
+    <CODE>LHE</CODE>
+    <FRCD>OPLA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>拉合尔</CNNM>
+    <ENNM>LAHORE</ENNM>
+    <AISO>O</AISO>
+    <APSN>拉</APSN>
+</APOT>
+<APOT>
+    <CODE>LHK</CODE>
+    <FRCD>ZHGH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>光化</CNNM>
+    <ENNM>guanghua</ENNM>
+    <AISO>O</AISO>
+    <APSN>光</APSN>
+</APOT>
+<APOT>
+    <CODE>LHR</CODE>
+    <FRCD>EGLL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>伦敦</CNNM>
+    <ENNM>LONDON</ENNM>
+    <AISO>O</AISO>
+    <APSN>伦</APSN>
+</APOT>
+<APOT>
+    <CODE>LHW</CODE>
+    <FRCD>ZLLL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>兰州</CNNM>
+    <ENNM>Lanzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>兰</APSN>
+</APOT>
+<APOT>
+    <CODE>LLB</CODE>
+    <FRCD>ZULB</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>荔波</CNNM>
+    <ENNM>Libo</ENNM>
+    <AISO>O</AISO>
+    <APSN>荔</APSN>
+</APOT>
+<APOT>
+    <CODE>LON</CODE>
+    <FRCD>EGGC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>伦敦</CNNM>
+    <ENNM> HEATHROW AIRP</ENNM>
+    <AISO>O</AISO>
+    <APSN>伦</APSN>
+</APOT>
+<APOT>
+    <CODE>LOS</CODE>
+    <FRCD>DNMM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>拉各斯</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>拉各斯</APSN>
+</APOT>
+<APOT>
+    <CODE>LTA</CODE>
+    <FRCD>ZSLT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>临洮</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>临洮</APSN>
+</APOT>
+<APOT>
+    <CODE>LUM</CODE>
+    <FRCD>ZPMS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>德宏</CNNM>
+    <ENNM>Dehong</ENNM>
+    <AISO>O</AISO>
+    <APSN>德宏</APSN>
+</APOT>
+<APOT>
+    <CODE>LUX</CODE>
+    <FRCD>ELLX</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>卢森堡</CNNM>
+    <ENNM>LUXEMBOURG</ENNM>
+    <AISO>O</AISO>
+    <APSN>卢</APSN>
+</APOT>
+<APOT>
+    <CODE>LXA</CODE>
+    <FRCD>ZULS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>拉萨</CNNM>
+    <ENNM>Lhasa</ENNM>
+    <AISO>O</AISO>
+    <APSN>拉</APSN>
+</APOT>
+<APOT>
+    <CODE>LXG</CODE>
+    <FRCD>ZBXG</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>良乡</CNNM>
+    <ENNM>LIANGXIANG</ENNM>
+    <AISO>O</AISO>
+    <APSN>良</APSN>
+</APOT>
+<APOT>
+    <CODE>LYG</CODE>
+    <FRCD>ZSLG</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>连云港</CNNM>
+    <ENNM>Lianyungang</ENNM>
+    <AISO>O</AISO>
+    <APSN>云</APSN>
+</APOT>
+<APOT>
+    <CODE>LYI</CODE>
+    <FRCD>ZSLY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>临沂</CNNM>
+    <ENNM>Linyi</ENNM>
+    <AISO>O</AISO>
+    <APSN>临</APSN>
+</APOT>
+<APOT>
+    <CODE>LZH</CODE>
+    <FRCD>ZGZH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>柳州</CNNM>
+    <ENNM>Liuzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>柳</APSN>
+</APOT>
+<APOT>
+    <CODE>LZO</CODE>
+    <FRCD>ZULZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>泸州</CNNM>
+    <ENNM>Luzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>泸</APSN>
+</APOT>
+<APOT>
+    <CODE>MAA</CODE>
+    <FRCD>VOMM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>马德拉斯</CNNM>
+    <ENNM>MADRAS</ENNM>
+    <AISO>O</AISO>
+    <APSN>马德拉斯</APSN>
+</APOT>
+<APOT>
+    <CODE>MAC</CODE>
+    <FRCD>VMMH</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>澳码</CNNM>
+    <ENNM>MACAU</ENNM>
+    <AISO>O</AISO>
+    <APSN>澳码</APSN>
+</APOT>
+<APOT>
+    <CODE>MAD</CODE>
+    <FRCD>LEMD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>马德里</CNNM>
+    <ENNM>MADRID</ENNM>
+    <AISO>O</AISO>
+    <APSN>里</APSN>
+</APOT>
+<APOT>
+    <CODE>MAJ</CODE>
+    <FRCD>PKMJ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>纳</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>马绍尔</APSN>
+</APOT>
+<APOT>
+    <CODE>MCT</CODE>
+    <FRCD>00MS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>马斯喀特</CNNM>
+    <ENNM>MUSCAT</ENNM>
+    <AISO>O</AISO>
+    <APSN>马斯喀特</APSN>
+</APOT>
+<APOT>
+    <CODE>MDG</CODE>
+    <FRCD>ZYMD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>牡丹江</CNNM>
+    <ENNM>Mudanjiang</ENNM>
+    <AISO>O</AISO>
+    <APSN>牡丹</APSN>
+</APOT>
+<APOT>
+    <CODE>MDL</CODE>
+    <FRCD>VYMD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>曼</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>曼德勒</APSN>
+</APOT>
+<APOT>
+    <CODE>MEL</CODE>
+    <FRCD>YMML</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>墨尔本</CNNM>
+    <ENNM>MELBOURNE</ENNM>
+    <AISO>O</AISO>
+    <APSN>墨</APSN>
+</APOT>
+<APOT>
+    <CODE>MEM</CODE>
+    <FRCD>KMEM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>孟菲斯</CNNM>
+    <ENNM>MEMPHIS</ENNM>
+    <AISO>O</AISO>
+    <APSN>孟</APSN>
+</APOT>
+<APOT>
+    <CODE>MFM</CODE>
+    <FRCD>VMMC</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>澳门</CNNM>
+    <ENNM>MACAU</ENNM>
+    <AISO>O</AISO>
+    <APSN>澳</APSN>
+</APOT>
+<APOT>
+    <CODE>MIG</CODE>
+    <FRCD>ZUMY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>绵阳</CNNM>
+    <ENNM>Mianyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>绵</APSN>
+</APOT>
+<APOT>
+    <CODE>MLE</CODE>
+    <FRCD>VRMM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>马累</CNNM>
+    <ENNM>MALE</ENNM>
+    <AISO>O</AISO>
+    <APSN>马累</APSN>
+</APOT>
+<APOT>
+    <CODE>MNL</CODE>
+    <FRCD>RPLL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>马尼拉</CNNM>
+    <ENNM>MANILA</ENNM>
+    <AISO>O</AISO>
+    <APSN>马</APSN>
+</APOT>
+<APOT>
+    <CODE>MOR</CODE>
+    <FRCD>AYPY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴不</CNNM>
+    <ENNM>GUINEA</ENNM>
+    <AISO>O</AISO>
+    <APSN>巴</APSN>
+</APOT>
+<APOT>
+    <CODE>MOW</CODE>
+    <FRCD>UUWW</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>莫斯科</CNNM>
+    <ENNM>MOSCOW</ENNM>
+    <AISO>O</AISO>
+    <APSN>莫</APSN>
+</APOT>
+<APOT>
+    <CODE>MRS</CODE>
+    <FRCD>LFML</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>马赛</CNNM>
+    <ENNM>MARSEILLE</ENNM>
+    <AISO>O</AISO>
+    <APSN>马赛</APSN>
+</APOT>
+<APOT>
+    <CODE>JMU</CODE>
+    <FRCD>ZYJM</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>佳木斯</CNNM>
+    <ENNM>Jiamusi</ENNM>
+    <AISO>O</AISO>
+    <APSN>佳</APSN>
+</APOT>
+<APOT>
+    <CODE>MSQ</CODE>
+    <FRCD>UMMS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>明斯克</CNNM>
+    <ENNM>MSK</ENNM>
+    <AISO>O</AISO>
+    <APSN>明斯克</APSN>
+</APOT>
+<APOT>
+    <CODE>MUC</CODE>
+    <FRCD>EDDM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>慕尼黑</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>慕尼黑</APSN>
+</APOT>
+<APOT>
+    <CODE>MXP</CODE>
+    <FRCD>LIMC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>米兰</CNNM>
+    <ENNM>MILAN</ENNM>
+    <AISO>O</AISO>
+    <APSN>米兰</APSN>
+</APOT>
+<APOT>
+    <CODE>MXZ</CODE>
+    <FRCD>ZGMX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>梅县</CNNM>
+    <ENNM>Meixian</ENNM>
+    <AISO>O</AISO>
+    <APSN>梅</APSN>
+</APOT>
+<APOT>
+    <CODE>MYJ</CODE>
+    <FRCD>RJOM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>松山</CNNM>
+    <ENNM>MATSUYAMA</ENNM>
+    <AISO>O</AISO>
+    <APSN>松</APSN>
+</APOT>
+<APOT>
+    <CODE>MYN</CODE>
+    <FRCD>MYNN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>MYN</CNNM>
+    <ENNM>MYN</ENNM>
+    <AISO>O</AISO>
+    <APSN>MYN</APSN>
+</APOT>
+<APOT>
+    <CODE>NAO</CODE>
+    <FRCD>ZUNC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南充</CNNM>
+    <ENNM>Nanchong</ENNM>
+    <AISO>O</AISO>
+    <APSN>充</APSN>
+</APOT>
+<APOT>
+    <CODE>NAY</CODE>
+    <FRCD>ZBNY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南苑</CNNM>
+    <ENNM>Nanyuan</ENNM>
+    <AISO>O</AISO>
+    <APSN>南苑</APSN>
+</APOT>
+<APOT>
+    <CODE>NBO</CODE>
+    <FRCD>HKJK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>内罗毕</CNNM>
+    <ENNM>Nairobi</ENNM>
+    <AISO>O</AISO>
+    <APSN>内罗毕</APSN>
+</APOT>
+<APOT>
+    <CODE>NCE</CODE>
+    <FRCD>LFMN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>尼斯</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>尼斯</APSN>
+</APOT>
+<APOT>
+    <CODE>NDG</CODE>
+    <FRCD>ZYQQ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>齐齐哈尔</CNNM>
+    <ENNM>Qiqiha'er</ENNM>
+    <AISO>O</AISO>
+    <APSN>齐</APSN>
+</APOT>
+<APOT>
+    <CODE>NDJ</CODE>
+    <FRCD>FTTJ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>恩贾梅纳</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>贾</APSN>
+</APOT>
+<APOT>
+    <CODE>NGB</CODE>
+    <FRCD>ZSNB</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>宁波</CNNM>
+    <ENNM>Ningbo</ENNM>
+    <AISO>O</AISO>
+    <APSN>甬</APSN>
+</APOT>
+<APOT>
+    <CODE>NGO</CODE>
+    <FRCD>RJNN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>名古屋</CNNM>
+    <ENNM>NAGOYA</ENNM>
+    <AISO>O</AISO>
+    <APSN>名</APSN>
+</APOT>
+<APOT>
+    <CODE>NGS</CODE>
+    <FRCD>RJFU</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>长崎</CNNM>
+    <ENNM>NAGASAKI</ENNM>
+    <AISO>O</AISO>
+    <APSN>崎</APSN>
+</APOT>
+<APOT>
+    <CODE>NKG</CODE>
+    <FRCD>ZSNJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南京</CNNM>
+    <ENNM>Nanjing</ENNM>
+    <AISO>O</AISO>
+    <APSN>宁</APSN>
+</APOT>
+<APOT>
+    <CODE>NMA</CODE>
+    <FRCD>UTKN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>内曼根</CNNM>
+    <ENNM>Namangan</ENNM>
+    <AISO>O</AISO>
+    <APSN>内曼根</APSN>
+</APOT>
+<APOT>
+    <CODE>NMT</CODE>
+    <FRCD>VYNT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>南渡</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>南渡</APSN>
+</APOT>
+<APOT>
+    <CODE>NNG</CODE>
+    <FRCD>ZGNN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南宁</CNNM>
+    <ENNM>Nanning</ENNM>
+    <AISO>O</AISO>
+    <APSN>邕</APSN>
+</APOT>
+<APOT>
+    <CODE>NNY</CODE>
+    <FRCD>ZHNY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南阳</CNNM>
+    <ENNM>Nanyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>宛</APSN>
+</APOT>
+<APOT>
+    <CODE>NRT</CODE>
+    <FRCD>RJAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>东京</CNNM>
+    <ENNM>TOKYO</ENNM>
+    <AISO>O</AISO>
+    <APSN>东京成田</APSN>
+</APOT>
+<APOT>
+    <CODE>NTG</CODE>
+    <FRCD>ZSNT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南通</CNNM>
+    <ENNM>Nantong</ENNM>
+    <AISO>O</AISO>
+    <APSN>通</APSN>
+</APOT>
+<APOT>
+    <CODE>NZH</CODE>
+    <FRCD>ZBMZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>满洲里</CNNM>
+    <ENNM>manzhouli</ENNM>
+    <AISO>O</AISO>
+    <APSN>满</APSN>
+</APOT>
+<APOT>
+    <CODE>OAK</CODE>
+    <FRCD>KOAK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>奥</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>奥</APSN>
+</APOT>
+<APOT>
+    <CODE>OBO</CODE>
+    <FRCD>RJCB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>带广</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>带广</APSN>
+</APOT>
+<APOT>
+    <CODE>OKA</CODE>
+    <FRCD>ROAH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>那霸</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>那霸</APSN>
+</APOT>
+<APOT>
+    <CODE>OKJ</CODE>
+    <FRCD>RJOB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>冈山</CNNM>
+    <ENNM>OKAYAMA</ENNM>
+    <AISO>O</AISO>
+    <APSN>冈山</APSN>
+</APOT>
+<APOT>
+    <CODE>ORD</CODE>
+    <FRCD>KORD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>芝加哥</CNNM>
+    <ENNM>CHICAGO</ENNM>
+    <AISO>O</AISO>
+    <APSN>芝加哥</APSN>
+</APOT>
+<APOT>
+    <CODE>OVB</CODE>
+    <FRCD>UNNT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>新西伯利亚</CNNM>
+    <ENNM>NOVOSIBIRSK</ENNM>
+    <AISO>O</AISO>
+    <APSN>伯</APSN>
+</APOT>
+<APOT>
+    <CODE>PAE</CODE>
+    <FRCD>KPAE</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>艾弗里特</CNNM>
+    <ENNM>EVERETT</ENNM>
+    <AISO>O</AISO>
+    <APSN>艾弗</APSN>
+</APOT>
+<APOT>
+    <CODE>SJW</CODE>
+    <FRCD>ZBSJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>石家庄</CNNM>
+    <ENNM>Shijiazhuang</ENNM>
+    <AISO>O</AISO>
+    <APSN>石</APSN>
+</APOT>
+<APOT>
+    <CODE>SNH</CODE>
+    <FRCD>ZBSN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>唐山</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>唐</APSN>
+</APOT>
+<APOT>
+    <CODE>SPK</CODE>
+    <FRCD>RJCO</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>札幌</CNNM>
+    <ENNM>SAPPORO</ENNM>
+    <AISO>O</AISO>
+    <APSN>札幌</APSN>
+</APOT>
+<APOT>
+    <CODE>SPN</CODE>
+    <FRCD>PGSN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>塞班</CNNM>
+    <ENNM>Saipan</ENNM>
+    <AISO>O</AISO>
+    <APSN>塞</APSN>
+</APOT>
+<APOT>
+    <CODE>STR</CODE>
+    <FRCD>EDDS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>斯图加特</CNNM>
+    <ENNM>Stuttgart</ENNM>
+    <AISO>O</AISO>
+    <APSN>斯图</APSN>
+</APOT>
+<APOT>
+    <CODE>SUB</CODE>
+    <FRCD>WARR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>泗水</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>泗</APSN>
+</APOT>
+<APOT>
+    <CODE>SUX</CODE>
+    <FRCD>ZGSX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>遂溪</CNNM>
+    <ENNM>Suixi</ENNM>
+    <AISO>O</AISO>
+    <APSN>遂</APSN>
+</APOT>
+<APOT>
+    <CODE>SVO</CODE>
+    <FRCD>UUEE</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>莫斯科二</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>莫</APSN>
+</APOT>
+<APOT>
+    <CODE>SVX</CODE>
+    <FRCD>USSS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>叶卡捷林堡</CNNM>
+    <ENNM>YEKATERINBURG</ENNM>
+    <AISO>O</AISO>
+    <APSN>叶卡捷林堡</APSN>
+</APOT>
+<APOT>
+    <CODE>ZZZ</CODE>
+    <FRCD>ZZZZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>未知</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>未知</APSN>
+</APOT>
+<APOT>
+    <CODE>BSD</CODE>
+    <FRCD>ZPBS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>保山</CNNM>
+    <ENNM>BaoShan</ENNM>
+    <AISO>O</AISO>
+    <APSN>保山</APSN>
+</APOT>
+<APOT>
+    <CODE>HGH</CODE>
+    <FRCD>ZSHC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>杭州</CNNM>
+    <ENNM>Hangzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>杭</APSN>
+</APOT>
+<APOT>
+    <CODE>JDZ</CODE>
+    <FRCD>ZSJD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>景德镇</CNNM>
+    <ENNM>Jingdezhen</ENNM>
+    <AISO>O</AISO>
+    <APSN>景</APSN>
+</APOT>
+<APOT>
+    <CODE>GAN</CODE>
+    <FRCD>VRMG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>甘岛</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>甘岛</APSN>
+</APOT>
+<APOT>
+    <CODE>JIB</CODE>
+    <FRCD>HDAM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>吉布提</CNNM>
+    <ENNM>AMBOULR</ENNM>
+    <AISO>O</AISO>
+    <APSN>吉布提</APSN>
+</APOT>
+<APOT>
+    <CODE>IQN</CODE>
+    <FRCD>ZLQY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>庆阳</CNNM>
+    <ENNM>Qingyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>庆</APSN>
+</APOT>
+<APOT>
+    <CODE>JXA</CODE>
+    <FRCD>ZYJX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>鸡西</CNNM>
+    <ENNM>JiXi</ENNM>
+    <AISO>O</AISO>
+    <APSN>鸡西</APSN>
+</APOT>
+<APOT>
+    <CODE>KWE</CODE>
+    <FRCD>ZUGY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>贵阳</CNNM>
+    <ENNM>Guiyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>筑</APSN>
+</APOT>
+<APOT>
+    <CODE>WUA</CODE>
+    <FRCD>ZBUH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>乌海</CNNM>
+    <ENNM>Wuhai</ENNM>
+    <AISO>O</AISO>
+    <APSN>乌海</APSN>
+</APOT>
+<APOT>
+    <CODE>BWE</CODE>
+    <FRCD>EDVE</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>瑞克</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>瑞克</APSN>
+</APOT>
+<APOT>
+    <CODE>KCA</CODE>
+    <FRCD>ZWKC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>库车</CNNM>
+    <ENNM>Kuche</ENNM>
+    <AISO>O</AISO>
+    <APSN>库</APSN>
+</APOT>
+<APOT>
+    <CODE>KWL</CODE>
+    <FRCD>ZGKL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>桂林</CNNM>
+    <ENNM>Guilin</ENNM>
+    <AISO>O</AISO>
+    <APSN>桂</APSN>
+</APOT>
+<APOT>
+    <CODE>SHA</CODE>
+    <FRCD>ZSSS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>上海虹桥</CNNM>
+    <ENNM>Shanghai Hongqiao</ENNM>
+    <AISO>O</AISO>
+    <APSN>沪</APSN>
+</APOT>
+<APOT>
+    <CODE>SKD</CODE>
+    <FRCD>UTSS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>撒马尔罕</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>撒</APSN>
+</APOT>
+<APOT>
+    <CODE>TNA</CODE>
+    <FRCD>ZSJN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>济南</CNNM>
+    <ENNM>Jinan</ENNM>
+    <AISO>O</AISO>
+    <APSN>济</APSN>
+</APOT>
+<APOT>
+    <CODE>WJD</CODE>
+    <FRCD>ZHWT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>武汉王家墩</CNNM>
+    <ENNM>Wangjiadun</ENNM>
+    <AISO>O</AISO>
+    <APSN>王</APSN>
+</APOT>
+<APOT>
+    <CODE>XIY</CODE>
+    <FRCD>ZLXY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>西安</CNNM>
+    <ENNM>Xi'an</ENNM>
+    <AISO>O</AISO>
+    <APSN>陕</APSN>
+</APOT>
+<APOT>
+    <CODE>XUZ</CODE>
+    <FRCD>ZSXZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>徐州</CNNM>
+    <ENNM>Xuzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>徐</APSN>
+</APOT>
+<APOT>
+    <CODE>GYS</CODE>
+    <FRCD>ZUGU</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>广元</CNNM>
+    <ENNM>Guangyuan</ENNM>
+    <AISO>O</AISO>
+    <APSN>元</APSN>
+</APOT>
+<APOT>
+    <CODE>PDX</CODE>
+    <FRCD>KPDX</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>波特兰</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>波特兰</APSN>
+</APOT>
+<APOT>
+    <CODE>TSN</CODE>
+    <FRCD>ZBTJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>天津</CNNM>
+    <ENNM>Tianjin</ENNM>
+    <AISO>O</AISO>
+    <APSN>津</APSN>
+</APOT>
+<APOT>
+    <CODE>TWU</CODE>
+    <FRCD>WBKW</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>斗湖</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>斗</APSN>
+</APOT>
+<APOT>
+    <CODE>TYN</CODE>
+    <FRCD>ZBYN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>太原</CNNM>
+    <ENNM>Taiyuan</ENNM>
+    <AISO>O</AISO>
+    <APSN>并</APSN>
+</APOT>
+<APOT>
+    <CODE>UFA</CODE>
+    <FRCD>UWUU</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>乌法</CNNM>
+    <ENNM>UFA</ENNM>
+    <AISO>O</AISO>
+    <APSN>乌法</APSN>
+</APOT>
+<APOT>
+    <CODE>ULN</CODE>
+    <FRCD>ZMUB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>乌兰巴托</CNNM>
+    <ENNM>ULAN BATOR</ENNM>
+    <AISO>O</AISO>
+    <APSN>托</APSN>
+</APOT>
+<APOT>
+    <CODE>KUF</CODE>
+    <FRCD>UWWW</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>萨马拉</CNNM>
+    <ENNM>Samara</ENNM>
+    <AISO>O</AISO>
+    <APSN>萨</APSN>
+</APOT>
+<APOT>
+    <CODE>UPG</CODE>
+    <FRCD>WAAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>望加锡</CNNM>
+    <ENNM>wa</ENNM>
+    <AISO>O</AISO>
+    <APSN>望加锡</APSN>
+</APOT>
+<APOT>
+    <CODE>USM</CODE>
+    <FRCD>VTSM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>苏梅岛</CNNM>
+    <ENNM>SAMUI</ENNM>
+    <AISO>O</AISO>
+    <APSN>沙梅</APSN>
+</APOT>
+<APOT>
+    <CODE>UTH</CODE>
+    <FRCD>VTUD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>乌隆</CNNM>
+    <ENNM>UDON THANI</ENNM>
+    <AISO>O</AISO>
+    <APSN>乌隆</APSN>
+</APOT>
+<APOT>
+    <CODE>UTP</CODE>
+    <FRCD>VTBU</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>乌塔堡</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>乌塔堡</APSN>
+</APOT>
+<APOT>
+    <CODE>UUS</CODE>
+    <FRCD>UHSS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>南萨</CNNM>
+    <ENNM>SAKHALINSK</ENNM>
+    <AISO>O</AISO>
+    <APSN>南萨</APSN>
+</APOT>
+<APOT>
+    <CODE>UYN</CODE>
+    <FRCD>ZLYL</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>榆林</CNNM>
+    <ENNM>Yulin</ENNM>
+    <AISO>O</AISO>
+    <APSN>榆林</APSN>
+</APOT>
+<APOT>
+    <CODE>VBS</CODE>
+    <FRCD>LIPO</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>布雷</CNNM>
+    <ENNM>BRESCIA</ENNM>
+    <AISO>O</AISO>
+    <APSN>布雷</APSN>
+</APOT>
+<APOT>
+    <CODE>VIE</CODE>
+    <FRCD>LOWW</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>维也纳</CNNM>
+    <ENNM>WIEM</ENNM>
+    <AISO>O</AISO>
+    <APSN>维</APSN>
+</APOT>
+<APOT>
+    <CODE>VTE</CODE>
+    <FRCD>VLVT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>万象</CNNM>
+    <ENNM>WATTAY</ENNM>
+    <AISO>O</AISO>
+    <APSN>万象</APSN>
+</APOT>
+<APOT>
+    <CODE>VVO</CODE>
+    <FRCD>UHWW</FRCD>
+    <APAT>2404</APAT>
+    <CNNM>海参崴</CNNM>
+    <ENNM>VLADIVOSTOK</ENNM>
+    <AISO>O</AISO>
+    <APSN>崴</APSN>
+</APOT>
+<APOT>
+    <CODE>WAW</CODE>
+    <FRCD>EPWA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>华沙</CNNM>
+    <ENNM>WARSZAWA</ENNM>
+    <AISO>O</AISO>
+    <APSN>华</APSN>
+</APOT>
+<APOT>
+    <CODE>WEF</CODE>
+    <FRCD>ZSWF</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>潍坊</CNNM>
+    <ENNM>Weifang</ENNM>
+    <AISO>O</AISO>
+    <APSN>潍</APSN>
+</APOT>
+<APOT>
+    <CODE>WEH</CODE>
+    <FRCD>ZSWH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>威海</CNNM>
+    <ENNM>Weihai</ENNM>
+    <AISO>O</AISO>
+    <APSN>威</APSN>
+</APOT>
+<APOT>
+    <CODE>WID</CODE>
+    <FRCD>WIDD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴淡</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>巴淡</APSN>
+</APOT>
+<APOT>
+    <CODE>WNZ</CODE>
+    <FRCD>ZSWZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>温州</CNNM>
+    <ENNM>Wenzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>温</APSN>
+</APOT>
+<APOT>
+    <CODE>WUS</CODE>
+    <FRCD>ZSWY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>武夷山</CNNM>
+    <ENNM>Wuyishan</ENNM>
+    <AISO>O</AISO>
+    <APSN>夷</APSN>
+</APOT>
+<APOT>
+    <CODE>WUX</CODE>
+    <FRCD>ZSWX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>无锡</CNNM>
+    <ENNM>Wuxi</ENNM>
+    <AISO>O</AISO>
+    <APSN>锡</APSN>
+</APOT>
+<APOT>
+    <CODE>WXN</CODE>
+    <FRCD>ZUWX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>万州</CNNM>
+    <ENNM>Wanzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>万</APSN>
+</APOT>
+<APOT>
+    <CODE>XIC</CODE>
+    <FRCD>ZUXC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>西昌</CNNM>
+    <ENNM>Xichang</ENNM>
+    <AISO>O</AISO>
+    <APSN>西昌</APSN>
+</APOT>
+<APOT>
+    <CODE>XIJ</CODE>
+    <FRCD>ZBXJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>西郊</CNNM>
+    <ENNM>Xijiao</ENNM>
+    <AISO>O</AISO>
+    <APSN>西郊</APSN>
+</APOT>
+<APOT>
+    <CODE>XIL</CODE>
+    <FRCD>ZBXH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>锡林浩特</CNNM>
+    <ENNM>Xilinhaote</ENNM>
+    <AISO>O</AISO>
+    <APSN>锡</APSN>
+</APOT>
+<APOT>
+    <CODE>XIN</CODE>
+    <FRCD>ZGXN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>兴宁</CNNM>
+    <ENNM>Xingning</ENNM>
+    <AISO>O</AISO>
+    <APSN>兴</APSN>
+</APOT>
+<APOT>
+    <CODE>DME</CODE>
+    <FRCD>UUDD</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>莫斯科三</CNNM>
+    <ENNM>Domodedovo</ENNM>
+    <AISO>O</AISO>
+    <APSN>莫斯科</APSN>
+</APOT>
+<APOT>
+    <CODE>WDS</CODE>
+    <FRCD>ZHSY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>十堰武当山</CNNM>
+    <ENNM>shiyan</ENNM>
+    <AISO>O</AISO>
+    <APSN>十堰</APSN>
+</APOT>
+<APOT>
+    <CODE>UAM</CODE>
+    <FRCD>PGUA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>关岛（军）</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>关岛（军）</APSN>
+</APOT>
+<APOT>
+    <CODE>BAX</CODE>
+    <FRCD>UNBB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴尔瑙尔</CNNM>
+    <ENNM>BARNAUL</ENNM>
+    <AISO>O</AISO>
+    <APSN>巴尔瑙尔</APSN>
+</APOT>
+<APOT>
+    <CODE>HSJ</CODE>
+    <FRCD>ZHSJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>上街</CNNM>
+    <ENNM>Shangjie</ENNM>
+    <AISO>O</AISO>
+    <APSN>上街</APSN>
+</APOT>
+<APOT>
+    <CODE>KJH</CODE>
+    <FRCD>ZUKJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>凯里</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>凯里</APSN>
+</APOT>
+<APOT>
+    <CODE>TOF</CODE>
+    <FRCD>UNTT</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>托木斯克</CNNM>
+    <ENNM>tumusike</ENNM>
+    <AISO>O</AISO>
+    <APSN>托木斯克</APSN>
+</APOT>
+<APOT>
+    <CODE>RIZ</CODE>
+    <FRCD>ZSRZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>日照</CNNM>
+    <ENNM>Rizhao</ENNM>
+    <AISO>O</AISO>
+    <APSN>日照</APSN>
+</APOT>
+<APOT>
+    <CODE>UUD</CODE>
+    <FRCD>UIUU</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>乌兰乌德</CNNM>
+    <ENNM>ulanude</ENNM>
+    <AISO>O</AISO>
+    <APSN>乌兰乌德</APSN>
+</APOT>
+<APOT>
+    <CODE>YNY</CODE>
+    <FRCD>RKNY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>韩国襄阳</CNNM>
+    <ENNM>XIANGYANG</ENNM>
+    <AISO>O</AISO>
+    <APSN>襄阳</APSN>
+</APOT>
+<APOT>
+    <CODE>BPE</CODE>
+    <FRCD>ZBDH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>北戴河</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>北戴河</APSN>
+</APOT>
+<APOT>
+    <CODE>HRB</CODE>
+    <FRCD>ZYHB</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>哈尔滨</CNNM>
+    <ENNM>Ha'erbin</ENNM>
+    <AISO>O</AISO>
+    <APSN>哈</APSN>
+</APOT>
+<APOT>
+    <CODE>KMG</CODE>
+    <FRCD>ZPPP</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>昆明</CNNM>
+    <ENNM>Kunming</ENNM>
+    <AISO>O</AISO>
+    <APSN>昆</APSN>
+</APOT>
+<APOT>
+    <CODE>LYA</CODE>
+    <FRCD>ZHLY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>洛阳</CNNM>
+    <ENNM>Luoyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>洛</APSN>
+</APOT>
+<APOT>
+    <CODE>NTO</CODE>
+    <FRCD>ZGNT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>南头</CNNM>
+    <ENNM>Nantou</ENNM>
+    <AISO>O</AISO>
+    <APSN>南头</APSN>
+</APOT>
+<APOT>
+    <CODE>TAO</CODE>
+    <FRCD>ZSQD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>青岛</CNNM>
+    <ENNM>Qingdao</ENNM>
+    <AISO>O</AISO>
+    <APSN>青</APSN>
+</APOT>
+<APOT>
+    <CODE>TDX</CODE>
+    <FRCD>VTFO</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阁骨岛</CNNM>
+    <ENNM>GEGUDAO</ENNM>
+    <AISO>O</AISO>
+    <APSN>阁</APSN>
+</APOT>
+<APOT>
+    <CODE>TIJ</CODE>
+    <FRCD>MMJJ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>蒂华纳</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>蒂华纳</APSN>
+</APOT>
+<APOT>
+    <CODE>WUH</CODE>
+    <FRCD>ZHHH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>武汉</CNNM>
+    <ENNM>Wuhan</ENNM>
+    <AISO>O</AISO>
+    <APSN>汉</APSN>
+</APOT>
+<APOT>
+    <CODE>WUZ</CODE>
+    <FRCD>ZGWZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>梧州</CNNM>
+    <ENNM>Wuzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>梧</APSN>
+</APOT>
+<APOT>
+    <CODE>DAD</CODE>
+    <FRCD>VVDN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>岘港</CNNM>
+    <ENNM>DA NANG</ENNM>
+    <AISO>O</AISO>
+    <APSN>岘港</APSN>
+</APOT>
+<APOT>
+    <CODE>NVI</CODE>
+    <FRCD>UTSA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>纳沃伊</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>纳沃伊</APSN>
+</APOT>
+<APOT>
+    <CODE>TZI</CODE>
+    <FRCD>ZUZH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>攀枝花</CNNM>
+    <ENNM>PANZHIHUA</ENNM>
+    <AISO>O</AISO>
+    <APSN>攀</APSN>
+</APOT>
+<APOT>
+    <CODE>SZX</CODE>
+    <FRCD>ZGSZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>深圳</CNNM>
+    <ENNM>Shenzhen</ENNM>
+    <AISO>O</AISO>
+    <APSN>圳</APSN>
+</APOT>
+<APOT>
+    <CODE>ANC</CODE>
+    <FRCD>PANC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>安克雷奇</CNNM>
+    <ENNM>ANCHORAGE</ENNM>
+    <AISO>O</AISO>
+    <APSN>安</APSN>
+</APOT>
+<APOT>
+    <CODE>AOG</CODE>
+    <FRCD>ZYAS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>鞍山</CNNM>
+    <ENNM>Anshan</ENNM>
+    <AISO>O</AISO>
+    <APSN>鞍</APSN>
+</APOT>
+<APOT>
+    <CODE>AOJ</CODE>
+    <FRCD>RJSA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>青森</CNNM>
+    <ENNM>qingsen</ENNM>
+    <AISO>O</AISO>
+    <APSN>青森</APSN>
+</APOT>
+<APOT>
+    <CODE>APW</CODE>
+    <FRCD>NSFA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>法莱奥洛</CNNM>
+    <ENNM>FALEOLO</ENNM>
+    <AISO>O</AISO>
+    <APSN>阿皮亚</APSN>
+</APOT>
+<APOT>
+    <CODE>AQC</CODE>
+    <FRCD>ZSAQ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>安庆</CNNM>
+    <ENNM>Anqing</ENNM>
+    <AISO>O</AISO>
+    <APSN>安庆</APSN>
+</APOT>
+<APOT>
+    <CODE>ARN</CODE>
+    <FRCD>ESSA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>斯德</CNNM>
+    <ENNM>STOCKHOLM</ENNM>
+    <AISO>O</AISO>
+    <APSN>斯德</APSN>
+</APOT>
+<APOT>
+    <CODE>ASB</CODE>
+    <FRCD>UTAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿什</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>阿什</APSN>
+</APOT>
+<APOT>
+    <CODE>ATL</CODE>
+    <FRCD>KATL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>亚特兰大</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>亚特</APSN>
+</APOT>
+<APOT>
+    <CODE>ATT</CODE>
+    <FRCD>ZWAT</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>瓦特</CNNM>
+    <ENNM>Zwate</ENNM>
+    <AISO>O</AISO>
+    <APSN>瓦</APSN>
+</APOT>
+<APOT>
+    <CODE>ATX</CODE>
+    <FRCD>RJSK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>秋田</CNNM>
+    <ENNM>AKITA</ENNM>
+    <AISO>O</AISO>
+    <APSN>秋田</APSN>
+</APOT>
+<APOT>
+    <CODE>AUH</CODE>
+    <FRCD>OMAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>阿布</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>阿布</APSN>
+</APOT>
+<APOT>
+    <CODE>AVA</CODE>
+    <FRCD>ZUAS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>安顺</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>安顺</APSN>
+</APOT>
+<APOT>
+    <CODE>BAH</CODE>
+    <FRCD>OBBI</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴林</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>巴林</APSN>
+</APOT>
+<APOT>
+    <CODE>BAV</CODE>
+    <FRCD>ZBOW</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>包头</CNNM>
+    <ENNM>Baotou</ENNM>
+    <AISO>O</AISO>
+    <APSN>包</APSN>
+</APOT>
+<APOT>
+    <CODE>BCN</CODE>
+    <FRCD>LEBL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴塞</CNNM>
+    <ENNM>LEPRAT</ENNM>
+    <AISO>O</AISO>
+    <APSN>巴塞</APSN>
+</APOT>
+<APOT>
+    <CODE>BHY</CODE>
+    <FRCD>ZGBH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>北海</CNNM>
+    <ENNM>Beihai</ENNM>
+    <AISO>O</AISO>
+    <APSN>北</APSN>
+</APOT>
+<APOT>
+    <CODE>BJY</CODE>
+    <FRCD>ZGBJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>顺德北窖</CNNM>
+    <ENNM>Beijiao</ENNM>
+    <AISO>O</AISO>
+    <APSN>窖</APSN>
+</APOT>
+<APOT>
+    <CODE>BKI</CODE>
+    <FRCD>WBKK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>沙巴</CNNM>
+    <ENNM>KOTA KINABALU</ENNM>
+    <AISO>O</AISO>
+    <APSN>沙巴</APSN>
+</APOT>
+<APOT>
+    <CODE>BKK</CODE>
+    <FRCD>VTBS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>曼谷素万那普</CNNM>
+    <ENNM>BANGKOK</ENNM>
+    <AISO>O</AISO>
+    <APSN>曼</APSN>
+</APOT>
+<APOT>
+    <CODE>BLL</CODE>
+    <FRCD>EKBI</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>比隆</CNNM>
+    <ENNM>BILLUND</ENNM>
+    <AISO>O</AISO>
+    <APSN>比隆</APSN>
+</APOT>
+<APOT>
+    <CODE>BLQ</CODE>
+    <FRCD>LIPE</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>博洛尼亚</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>博</APSN>
+</APOT>
+<APOT>
+    <CODE>BLR</CODE>
+    <FRCD>VOBG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>班加罗尔</CNNM>
+    <ENNM>BANGALORE</ENNM>
+    <AISO>O</AISO>
+    <APSN>班</APSN>
+</APOT>
+<APOT>
+    <CODE>BME</CODE>
+    <FRCD>YBRM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>布鲁姆</CNNM>
+    <ENNM>BROOME</ENNM>
+    <AISO>O</AISO>
+    <APSN>布鲁姆</APSN>
+</APOT>
+<APOT>
+    <CODE>BNE</CODE>
+    <FRCD>YBBN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>布里斯班</CNNM>
+    <ENNM>BRISBANE</ENNM>
+    <AISO>O</AISO>
+    <APSN>斯班</APSN>
+</APOT>
+<APOT>
+    <CODE>BOM</CODE>
+    <FRCD>VABB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>孟买</CNNM>
+    <ENNM>BOMBAY</ENNM>
+    <AISO>O</AISO>
+    <APSN>孟买</APSN>
+</APOT>
+<APOT>
+    <CODE>BRU</CODE>
+    <FRCD>EBBR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>布鲁塞尔</CNNM>
+    <ENNM>BRUXELLES</ENNM>
+    <AISO>O</AISO>
+    <APSN>布</APSN>
+</APOT>
+<APOT>
+    <CODE>BUH</CODE>
+    <FRCD>LROP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>布加</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>布加</APSN>
+</APOT>
+<APOT>
+    <CODE>BWN</CODE>
+    <FRCD>WBSB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>文莱</CNNM>
+    <ENNM>BRUNEI</ENNM>
+    <AISO>O</AISO>
+    <APSN>文莱</APSN>
+</APOT>
+<APOT>
+    <CODE>CAI</CODE>
+    <FRCD>HECA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>开罗</CNNM>
+    <ENNM>CAIRO</ENNM>
+    <AISO>O</AISO>
+    <APSN>开</APSN>
+</APOT>
+<APOT>
+    <CODE>CBS</CODE>
+    <FRCD>ZYBS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>长白山</CNNM>
+    <ENNM>Changbaishan</ENNM>
+    <AISO>O</AISO>
+    <APSN>长白山</APSN>
+</APOT>
+<APOT>
+    <CODE>CCU</CODE>
+    <FRCD>VECC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>加尔各答</CNNM>
+    <ENNM>CALCUTTA</ENNM>
+    <AISO>O</AISO>
+    <APSN>加</APSN>
+</APOT>
+<APOT>
+    <CODE>CDG</CODE>
+    <FRCD>LFPG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴黎</CNNM>
+    <ENNM>PARIS</ENNM>
+    <AISO>O</AISO>
+    <APSN>巴</APSN>
+</APOT>
+<APOT>
+    <CODE>CEB</CODE>
+    <FRCD>RPVM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>拉普拉普</CNNM>
+    <ENNM>LAPU-LAPU</ENNM>
+    <AISO>O</AISO>
+    <APSN>拉普</APSN>
+</APOT>
+<APOT>
+    <CODE>CGD</CODE>
+    <FRCD>ZGCD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>常德</CNNM>
+    <ENNM>Changde</ENNM>
+    <AISO>O</AISO>
+    <APSN>德</APSN>
+</APOT>
+<APOT>
+    <CODE>CGK</CODE>
+    <FRCD>WIII</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>雅加达</CNNM>
+    <ENNM>JAKARTA</ENNM>
+    <AISO>O</AISO>
+    <APSN>雅</APSN>
+</APOT>
+<APOT>
+    <CODE>CGN</CODE>
+    <FRCD>EDDK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>科隆</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>科隆</APSN>
+</APOT>
+<APOT>
+    <CODE>CGP</CODE>
+    <FRCD>VGEG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>吉大港</CNNM>
+    <ENNM>CHITTAGONG</ENNM>
+    <AISO>O</AISO>
+    <APSN>吉大港</APSN>
+</APOT>
+<APOT>
+    <CODE>CHC</CODE>
+    <FRCD>NZCH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>克里斯特</CNNM>
+    <ENNM>CHRISTCHURCH</ENNM>
+    <AISO>O</AISO>
+    <APSN>克里</APSN>
+</APOT>
+<APOT>
+    <CODE>CHG</CODE>
+    <FRCD>ZYCY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>朝阳</CNNM>
+    <ENNM>Chaoyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>朝</APSN>
+</APOT>
+<APOT>
+    <CODE>CIF</CODE>
+    <FRCD>ZBCF</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>赤峰</CNNM>
+    <ENNM>Chifeng</ENNM>
+    <AISO>O</AISO>
+    <APSN>赤</APSN>
+</APOT>
+<APOT>
+    <CODE>CIH</CODE>
+    <FRCD>ZBCZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>长治</CNNM>
+    <ENNM>Changzhi</ENNM>
+    <AISO>O</AISO>
+    <APSN>治</APSN>
+</APOT>
+<APOT>
+    <CODE>CIT</CODE>
+    <FRCD>UAII</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>奇姆肯特</CNNM>
+    <ENNM>CHIMKENT</ENNM>
+    <AISO>O</AISO>
+    <APSN>奇姆肯特</APSN>
+</APOT>
+<APOT>
+    <CODE>CJJ</CODE>
+    <FRCD>RKTU</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>清州</CNNM>
+    <ENNM>CJJ</ENNM>
+    <AISO>O</AISO>
+    <APSN>清州</APSN>
+</APOT>
+<APOT>
+    <CODE>CJU</CODE>
+    <FRCD>RKPC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>济州</CNNM>
+    <ENNM>CHEJU</ENNM>
+    <AISO>O</AISO>
+    <APSN>济州</APSN>
+</APOT>
+<APOT>
+    <CODE>CLD</CODE>
+    <FRCD>KCRQ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>喀尔斯巴德</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>喀</APSN>
+</APOT>
+<APOT>
+    <CODE>CLK</CODE>
+    <FRCD>RPLC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>克拉克</CNNM>
+    <ENNM>CLARK</ENNM>
+    <AISO>O</AISO>
+    <APSN>克拉克</APSN>
+</APOT>
+<APOT>
+    <CODE>CMB</CODE>
+    <FRCD>VCBI</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>科伦坡</CNNM>
+    <ENNM>COLOMBO</ENNM>
+    <AISO>O</AISO>
+    <APSN>科伦坡</APSN>
+</APOT>
+<APOT>
+    <CODE>CNM</CODE>
+    <FRCD>KCNM</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>卡尔斯巴德</CNNM>
+    <ENNM>CARLSBAD</ENNM>
+    <AISO>O</AISO>
+    <APSN>卡尔斯巴德</APSN>
+</APOT>
+<APOT>
+    <CODE>CNS</CODE>
+    <FRCD>YBCS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>凯恩</CNNM>
+    <ENNM>CAIRNS</ENNM>
+    <AISO>O</AISO>
+    <APSN>凯恩</APSN>
+</APOT>
+<APOT>
+    <CODE>CNX</CODE>
+    <FRCD>VTCC</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>清迈</CNNM>
+    <ENNM>CHIANG MAI</ENNM>
+    <AISO>O</AISO>
+    <APSN>清迈</APSN>
+</APOT>
+<APOT>
+    <CODE>COH</CODE>
+    <FRCD>EKCH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>哥本哈根</CNNM>
+    <ENNM>KOBENHAVN</ENNM>
+    <AISO>O</AISO>
+    <APSN>哥</APSN>
+</APOT>
+<APOT>
+    <CODE>HTN</CODE>
+    <FRCD>ZWTN</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>和田</CNNM>
+    <ENNM>Hetian</ENNM>
+    <AISO>O</AISO>
+    <APSN>和</APSN>
+</APOT>
+<APOT>
+    <CODE>HUZ</CODE>
+    <FRCD>ZGHZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>惠州</CNNM>
+    <ENNM>Huizhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>惠</APSN>
+</APOT>
+<APOT>
+    <CODE>HYD</CODE>
+    <FRCD>VOHY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>海得</CNNM>
+    <ENNM>HYDERABAD</ENNM>
+    <AISO>O</AISO>
+    <APSN>海得</APSN>
+</APOT>
+<APOT>
+    <CODE>HYN</CODE>
+    <FRCD>ZSLQ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>台州</CNNM>
+    <ENNM>Taizhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>台</APSN>
+</APOT>
+<APOT>
+    <CODE>HZG</CODE>
+    <FRCD>ZLHZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>汉中</CNNM>
+    <ENNM>Hanzhong</ENNM>
+    <AISO>O</AISO>
+    <APSN>中</APSN>
+</APOT>
+<APOT>
+    <CODE>ICN</CODE>
+    <FRCD>RKSI</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>首尔仁川</CNNM>
+    <ENNM>INCHEON</ENNM>
+    <AISO>O</AISO>
+    <APSN>仁川</APSN>
+</APOT>
+<APOT>
+    <CODE>IEV</CODE>
+    <FRCD>UKBB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>基辅</CNNM>
+    <ENNM>KIEV</ENNM>
+    <AISO>O</AISO>
+    <APSN>辅</APSN>
+</APOT>
+<APOT>
+    <CODE>IKA</CODE>
+    <FRCD>OIIE</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>德黑兰伊玛</CNNM>
+    <ENNM>TEHRAN</ENNM>
+    <AISO>O</AISO>
+    <APSN>德黑兰伊玛</APSN>
+</APOT>
+<APOT>
+    <CODE>IKT</CODE>
+    <FRCD>UIII</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>伊尔库茨克</CNNM>
+    <ENNM>IRKUTSK</ENNM>
+    <AISO>O</AISO>
+    <APSN>茨</APSN>
+</APOT>
+<APOT>
+    <CODE>PEK</CODE>
+    <FRCD>ZBAA</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>北京首都</CNNM>
+    <ENNM>Beijing</ENNM>
+    <AISO>O</AISO>
+    <APSN>京</APSN>
+</APOT>
+<APOT>
+    <CODE>PEN</CODE>
+    <FRCD>WMKP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>槟城</CNNM>
+    <ENNM>PENANG</ENNM>
+    <AISO>O</AISO>
+    <APSN>槟</APSN>
+</APOT>
+<APOT>
+    <CODE>PER</CODE>
+    <FRCD>YPPH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>珀斯</CNNM>
+    <ENNM>PERTH WA</ENNM>
+    <AISO>O</AISO>
+    <APSN>珀斯</APSN>
+</APOT>
+<APOT>
+    <CODE>PHL</CODE>
+    <FRCD>KPHL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>费城</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>费城</APSN>
+</APOT>
+<APOT>
+    <CODE>PKC</CODE>
+    <FRCD>UHPP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>勘察加</CNNM>
+    <ENNM>KAMCHATSKY</ENNM>
+    <AISO>O</AISO>
+    <APSN>勘</APSN>
+</APOT>
+<APOT>
+    <CODE>PLB</CODE>
+    <FRCD>RPLB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>苏比克湾</CNNM>
+    <ENNM>SUBIK</ENNM>
+    <AISO>O</AISO>
+    <APSN>苏</APSN>
+</APOT>
+<APOT>
+    <CODE>PNH</CODE>
+    <FRCD>VDPP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>金边</CNNM>
+    <ENNM>CAMBODIA</ENNM>
+    <AISO>O</AISO>
+    <APSN>金</APSN>
+</APOT>
+<APOT>
+    <CODE>PRG</CODE>
+    <FRCD>LKAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>布拉格</CNNM>
+    <ENNM>PRAGUE</ENNM>
+    <AISO>O</AISO>
+    <APSN>布拉格</APSN>
+</APOT>
+<APOT>
+    <CODE>PUS</CODE>
+    <FRCD>RKPK</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>釜山</CNNM>
+    <ENNM>PUSAN</ENNM>
+    <AISO>O</AISO>
+    <APSN>釜</APSN>
+</APOT>
+<APOT>
+    <CODE>PWQ</CODE>
+    <FRCD>UASP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴甫</CNNM>
+    <ENNM>PAVLODAR</ENNM>
+    <AISO>O</AISO>
+    <APSN>巴甫</APSN>
+</APOT>
+<APOT>
+    <CODE>REP</CODE>
+    <FRCD>VDSR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>暹粒</CNNM>
+    <ENNM>SIEMREAP</ENNM>
+    <AISO>O</AISO>
+    <APSN>暹</APSN>
+</APOT>
+<APOT>
+    <CODE>RGN</CODE>
+    <FRCD>VYYY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>仰光</CNNM>
+    <ENNM>YANGON</ENNM>
+    <AISO>O</AISO>
+    <APSN>仰</APSN>
+</APOT>
+<APOT>
+    <CODE>RMQ</CODE>
+    <FRCD>RCMQ</FRCD>
+    <APAT>2402</APAT>
+    <CNNM>台中</CNNM>
+    <ENNM>TAIZHONG</ENNM>
+    <AISO>O</AISO>
+    <APSN>台中</APSN>
+</APOT>
+<APOT>
+    <CODE>ROR</CODE>
+    <FRCD>PTRO</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>帕劳</CNNM>
+    <ENNM>PALAU INTERTIONAL AIRPORT</ENNM>
+    <AISO>O</AISO>
+    <APSN>帕劳</APSN>
+</APOT>
+<APOT>
+    <CODE>RUH</CODE>
+    <FRCD>OERY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>利雅得</CNNM>
+    <ENNM>RIYADH</ENNM>
+    <AISO>O</AISO>
+    <APSN>利雅得</APSN>
+</APOT>
+<APOT>
+    <CODE>RYG</CODE>
+    <FRCD>ENRY</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>奥斯陆立格</CNNM>
+    <ENNM>Rygge</ENNM>
+    <AISO>O</AISO>
+    <APSN>立</APSN>
+</APOT>
+<APOT>
+    <CODE>SAG</CODE>
+    <FRCD>ZGSG</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>韶关</CNNM>
+    <ENNM>Shaoguan</ENNM>
+    <AISO>O</AISO>
+    <APSN>韶</APSN>
+</APOT>
+<APOT>
+    <CODE>SDF</CODE>
+    <FRCD>KSDF</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>斯维尔</CNNM>
+    <ENNM>Louisvile International Airport</ENNM>
+    <AISO>O</AISO>
+    <APSN>斯维尔</APSN>
+</APOT>
+<APOT>
+    <CODE>SDJ</CODE>
+    <FRCD>RJSS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>仙台</CNNM>
+    <ENNM>Sendai</ENNM>
+    <AISO>O</AISO>
+    <APSN>仙</APSN>
+</APOT>
+<APOT>
+    <CODE>SEA</CODE>
+    <FRCD>KSEA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>西雅图</CNNM>
+    <ENNM>Seattle</ENNM>
+    <AISO>O</AISO>
+    <APSN>图</APSN>
+</APOT>
+<APOT>
+    <CODE>SEL</CODE>
+    <FRCD>RKSS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>首尔金浦</CNNM>
+    <ENNM>KIMPO</ENNM>
+    <AISO>O</AISO>
+    <APSN>金浦</APSN>
+</APOT>
+<APOT>
+    <CODE>SEW</CODE>
+    <FRCD>EDOP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>帕西姆</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>帕西姆</APSN>
+</APOT>
+<APOT>
+    <CODE>SEZ</CODE>
+    <FRCD>FSIA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>塞舌尔</CNNM>
+    <ENNM></ENNM>
+    <AISO>O</AISO>
+    <APSN>塞舌尔</APSN>
+</APOT>
+<APOT>
+    <CODE>SFO</CODE>
+    <FRCD>KSFO</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>旧金山</CNNM>
+    <ENNM>San Francisco</ENNM>
+    <AISO>O</AISO>
+    <APSN>旧</APSN>
+</APOT>
+<APOT>
+    <CODE>SGN</CODE>
+    <FRCD>VVTS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>胡志明</CNNM>
+    <ENNM>Hochiminh</ENNM>
+    <AISO>O</AISO>
+    <APSN>胡</APSN>
+</APOT>
+<APOT>
+    <CODE>SHJ</CODE>
+    <FRCD>OMSJ</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>沙迦</CNNM>
+    <ENNM>Sharjah</ENNM>
+    <AISO>O</AISO>
+    <APSN>迦</APSN>
+</APOT>
+<APOT>
+    <CODE>SHP</CODE>
+    <FRCD>ZBSH</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>秦皇岛</CNNM>
+    <ENNM>Qinhuangdao</ENNM>
+    <AISO>O</AISO>
+    <APSN>秦</APSN>
+</APOT>
+<APOT>
+    <CODE>SHS</CODE>
+    <FRCD>ZHSS</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>沙市</CNNM>
+    <ENNM>Shashi</ENNM>
+    <AISO>O</AISO>
+    <APSN>沙</APSN>
+</APOT>
+<APOT>
+    <CODE>SIC</CODE>
+    <FRCD>RKPS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>泗川</CNNM>
+    <ENNM>SACHON</ENNM>
+    <AISO>O</AISO>
+    <APSN>泗</APSN>
+</APOT>
+<APOT>
+    <CODE>SIN</CODE>
+    <FRCD>WSSS</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>新加坡</CNNM>
+    <ENNM>Singapore</ENNM>
+    <AISO>O</AISO>
+    <APSN>新</APSN>
+</APOT>
+<APOT>
+    <CODE>HFE</CODE>
+    <FRCD>ZSOF</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>合肥</CNNM>
+    <ENNM>Hefei</ENNM>
+    <AISO>O</AISO>
+    <APSN>皖</APSN>
+</APOT>
+<APOT>
+    <CODE>LJG</CODE>
+    <FRCD>ZPLJ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>丽江</CNNM>
+    <ENNM>Lijiang</ENNM>
+    <AISO>O</AISO>
+    <APSN>丽</APSN>
+</APOT>
+<APOT>
+    <CODE>NAN</CODE>
+    <FRCD>NFFN</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>南迪</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>南迪</APSN>
+</APOT>
+<APOT>
+    <CODE>PVG</CODE>
+    <FRCD>ZSPD</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>上海浦东</CNNM>
+    <ENNM>Shanghai Pudong</ENNM>
+    <AISO>O</AISO>
+    <APSN>浦</APSN>
+</APOT>
+<APOT>
+    <CODE>SHE</CODE>
+    <FRCD>ZYTX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>沈阳</CNNM>
+    <ENNM>Shenyang</ENNM>
+    <AISO>O</AISO>
+    <APSN>沈</APSN>
+</APOT>
+<APOT>
+    <CODE>ULW</CODE>
+    <FRCD>UWLW</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>萨马拉</CNNM>
+    <ENNM>SAMALA</ENNM>
+    <AISO>O</AISO>
+    <APSN>萨</APSN>
+</APOT>
+<APOT>
+    <CODE>URC</CODE>
+    <FRCD>ZWWW</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>乌鲁木齐</CNNM>
+    <ENNM>Urumqi</ENNM>
+    <AISO>O</AISO>
+    <APSN>乌</APSN>
+</APOT>
+<APOT>
+    <CODE>XFN</CODE>
+    <FRCD>ZHXF</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>襄阳</CNNM>
+    <ENNM>Xiangfan</ENNM>
+    <AISO>O</AISO>
+    <APSN>襄</APSN>
+</APOT>
+<APOT>
+    <CODE>YIC</CODE>
+    <FRCD>ZSYC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>宜春</CNNM>
+    <ENNM>Yichun</ENNM>
+    <AISO>O</AISO>
+    <APSN>宜春</APSN>
+</APOT>
+<APOT>
+    <CODE>ZYI</CODE>
+    <FRCD>ZUZY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>遵义</CNNM>
+    <ENNM>Zunyi</ENNM>
+    <AISO>O</AISO>
+    <APSN>遵</APSN>
+</APOT>
+<APOT>
+    <CODE>CAN</CODE>
+    <FRCD>ZGGG</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>广州</CNNM>
+    <ENNM>Guangzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>穗</APSN>
+</APOT>
+<APOT>
+    <CODE>CIA</CODE>
+    <FRCD>LIRA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>罗马钱皮诺</CNNM>
+    <ENNM>Ciampino</ENNM>
+    <AISO>O</AISO>
+    <APSN>钱皮诺</APSN>
+</APOT>
+<APOT>
+    <CODE>CLJ</CODE>
+    <FRCD>LRCL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>克卢日</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>克卢日</APSN>
+</APOT>
+<APOT>
+    <CODE>CTU</CODE>
+    <FRCD>ZUUU</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>成都</CNNM>
+    <ENNM>Chengdu</ENNM>
+    <AISO>O</AISO>
+    <APSN>蓉</APSN>
+</APOT>
+<APOT>
+    <CODE>JNG</CODE>
+    <FRCD>ZSJG</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>济宁</CNNM>
+    <ENNM>JINING</ENNM>
+    <AISO>O</AISO>
+    <APSN>济宁</APSN>
+</APOT>
+<APOT>
+    <CODE>LLF</CODE>
+    <FRCD>ZGLG</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>永州</CNNM>
+    <ENNM>Yongzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>永</APSN>
+</APOT>
+<APOT>
+    <CODE>PLM</CODE>
+    <FRCD>WIPP</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巨港</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>巨港</APSN>
+</APOT>
+<APOT>
+    <CODE>TXN</CODE>
+    <FRCD>ZSTX</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>黄山</CNNM>
+    <ENNM>Huangshan</ENNM>
+    <AISO>O</AISO>
+    <APSN>屯</APSN>
+</APOT>
+<APOT>
+    <CODE>ZHY</CODE>
+    <FRCD>ZLZW</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>中卫</CNNM>
+    <ENNM>zhongwei</ENNM>
+    <AISO>O</AISO>
+    <APSN>中卫</APSN>
+</APOT>
+<APOT>
+    <CODE>ZRH</CODE>
+    <FRCD>LSZH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>苏黎世</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>苏黎世</APSN>
+</APOT>
+<APOT>
+    <CODE>CGO</CODE>
+    <FRCD>ZHCC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>郑州</CNNM>
+    <ENNM>Zhengzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>郑</APSN>
+</APOT>
+<APOT>
+    <CODE>AKL</CODE>
+    <FRCD>NZAA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>奥克兰</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>奥</APSN>
+</APOT>
+<APOT>
+    <CODE>BIK</CODE>
+    <FRCD>WABB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>比亚克</CNNM>
+    <ENNM>Wiak island</ENNM>
+    <AISO>O</AISO>
+    <APSN>比亚克</APSN>
+</APOT>
+<APOT>
+    <CODE>CGQ</CODE>
+    <FRCD>ZYCC</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>长春</CNNM>
+    <ENNM>Changchun</ENNM>
+    <AISO>O</AISO>
+    <APSN>长春</APSN>
+</APOT>
+<APOT>
+    <CODE>CZX</CODE>
+    <FRCD>ZSCG</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>常州</CNNM>
+    <ENNM>Changzhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>常</APSN>
+</APOT>
+<APOT>
+    <CODE>HAK</CODE>
+    <FRCD>ZJHK</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>海口</CNNM>
+    <ENNM>Haikou</ENNM>
+    <AISO>O</AISO>
+    <APSN>琼</APSN>
+</APOT>
+<APOT>
+    <CODE>GYD</CODE>
+    <FRCD>UBBB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>巴库</CNNM>
+    <ENNM>baku</ENNM>
+    <AISO>O</AISO>
+    <APSN>巴库</APSN>
+</APOT>
+<APOT>
+    <CODE>HHN</CODE>
+    <FRCD>EDFH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>哈恩</CNNM>
+    <ENNM>haen</ENNM>
+    <AISO>O</AISO>
+    <APSN>哈恩</APSN>
+</APOT>
+<APOT>
+    <CODE>IAH</CODE>
+    <FRCD>KIAH</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>休斯顿</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>休斯顿</APSN>
+</APOT>
+<APOT>
+    <CODE>MIA</CODE>
+    <FRCD>KMIA</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>迈阿密</CNNM>
+    <ENNM>MIAMI</ENNM>
+    <AISO>O</AISO>
+    <APSN>迈阿密</APSN>
+</APOT>
+<APOT>
+    <CODE>SCL</CODE>
+    <FRCD>SCEL</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>圣地亚哥</CNNM>
+    <ENNM>SANTIAGO</ENNM>
+    <AISO>O</AISO>
+    <APSN>圣地亚哥</APSN>
+</APOT>
+<APOT>
+    <CODE>MEX</CODE>
+    <FRCD>MMMX</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>墨西哥城</CNNM>
+    <ENNM>MAXCOCITY</ENNM>
+    <AISO>O</AISO>
+    <APSN>墨西哥</APSN>
+</APOT>
+<APOT>
+    <CODE>SHF</CODE>
+    <FRCD>ZWHZ</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>石河子</CNNM>
+    <ENNM/>
+    <AISO>O</AISO>
+    <APSN>石河子</APSN>
+</APOT>
+<APOT>
+    <CODE>MWX</CODE>
+    <FRCD>RKJB</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>务安</CNNM>
+    <ENNM>WUAN</ENNM>
+    <AISO>O</AISO>
+    <APSN>务安</APSN>
+</APOT>
+<APOT>
+    <CODE>CXR</CODE>
+    <FRCD>VVCR</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>芽庄</CNNM>
+    <ENNM>yazhaung</ENNM>
+    <AISO>O</AISO>
+    <APSN>芽庄</APSN>
+</APOT>
+<APOT>
+    <CODE>YYY</CODE>
+    <FRCD>YYYY</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>未知未知</CNNM>
+    <ENNM>weizhi</ENNM>
+    <AISO>O</AISO>
+    <APSN>未知未知</APSN>
+</APOT>
+<APOT>
+    <CODE>OSN</CODE>
+    <FRCD>RKSO</FRCD>
+    <APAT>2401</APAT>
+    <CNNM>乌山</CNNM>
+    <ENNM>WUSHAN</ENNM>
+    <AISO>O</AISO>
+    <APSN>乌山</APSN>
+</APOT>
+<APOT>
+    <CODE>BBB</CODE>
+    <FRCD>BBBB</FRCD>
+    <APAT>2403</APAT>
+    <CNNM>随州</CNNM>
+    <ENNM>suizhou</ENNM>
+    <AISO>O</AISO>
+    <APSN>随州</APSN>
+</APOT>
+</MSG>
