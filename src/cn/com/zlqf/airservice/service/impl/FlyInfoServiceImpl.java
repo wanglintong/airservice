@@ -36,6 +36,7 @@ public class FlyInfoServiceImpl implements FlyInfoService{
 	
 	@Override
 	public void publishAll(List<FlyInfo> flyInfoList) {
+		flyInfoDao.deleteAll();
 		flyInfoDao.save(flyInfoList);
 		
 		//最新整表存入redis

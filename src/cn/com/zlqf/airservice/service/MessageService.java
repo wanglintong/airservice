@@ -15,7 +15,6 @@ public interface MessageService {
 	void ignore(String ids);
 	List<Message> getCheckedMessageList();
 	void updateMessageById(String message,String jsonMessage, String messageId);
-	void testBatch(EntityManager entityManager);
 	Map<String,List<FlyInfo>> checkFlyNo(String ids);
 	void checkRepeat(List<Map<String, String>> list);
 }

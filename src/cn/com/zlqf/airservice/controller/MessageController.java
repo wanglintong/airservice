@@ -65,16 +65,8 @@ public class MessageController {
 	public @ResponseBody Map<String,String> checkRepeat(String msg) {
 		Map<String,String> map = new HashMap<>();
 		try {
-			//System.out.println(msg);
 			List<Map<String,String>> list  = JSON.parseObject(msg,List.class);
 			messageService.checkRepeat(list);
-			/*
-			for(Map<String,String> m:parseObject) {
-				for(String key:m.keySet()) {
-					System.out.println(key + " | " + m.get(key));
-				}
-			}
-			*/
 			map.put("state", "ok");
 		} catch (Exception e) {
 			e.printStackTrace();

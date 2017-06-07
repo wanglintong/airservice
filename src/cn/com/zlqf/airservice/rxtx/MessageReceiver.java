@@ -20,6 +20,7 @@ import org.springframework.stereotype.Component;
 import cn.com.zlqf.airservice.entity.Const;
 import cn.com.zlqf.airservice.entity.Message;
 import cn.com.zlqf.airservice.service.MessageService;
+import cn.com.zlqf.airservice.socket.MessageReminderHandler;
 import cn.com.zlqf.airservice.utils.DateUtils;
 import cn.com.zlqf.airservice.utils.MessageUtils;
 import cn.com.zlqf.airservice.utils.StringUtils;
@@ -32,11 +33,12 @@ import gnu.io.SerialPortEvent;
 import gnu.io.SerialPortEventListener;
 import gnu.io.UnsupportedCommOperationException;
 
-@Component 
 public class MessageReceiver implements SerialPortEventListener {
 	
 	@Autowired
 	private MessageService messageService;
+	@Autowired
+	private MessageReminderHandler messageReminder;
 	
 	private InputStream inputStream;
 	private OutputStream outputStream;
@@ -169,15 +171,15 @@ public class MessageReceiver implements SerialPortEventListener {
 					m.setJsonMessage(json);
 					
 					messageService.addMessage(m);
-					Const.session.getBasicRemote().sendText("has new message");
+					messageReminder.sendMessage("has new message");
 					sb.delete(0, sb.length());
 				}else {
 					//System.out.println("收到报文内容:" + message);
 					sb.append(message);
 				}
-			} catch (IOException e) {
+			} catch (Exception e) {
 				e.printStackTrace();
-			}
+			} 
 		}
 	}
 }

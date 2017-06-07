@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 
 public class SQLUtils {
 
-	public static String createSQL(JSONObject jsonObject, Long time) {
+	public static String createSQL(JSONObject jsonObject) {
 		String incomingFlyNo = jsonObject.getString("incomingFlyNo");
 		String departureFlyNo = jsonObject.getString("departureFlyNo");
 		String planeType = jsonObject.getString("planeType");
@@ -117,13 +117,13 @@ public class SQLUtils {
 		if (departureFlyNo != null) {
 			sb.append(" where departureflyno='" + departureFlyNo + "'");
 		}
-		sb.append(" and publishtime='" + time + "'");
+		//sb.append(" and publishtime='" + time + "'");
 		return sb.toString();
 	}
 
 	public static String createSQLByFlyInfoId(JSONObject jsonObject, String id) {
-		String incomingFlyNo = jsonObject.getString("incomingFlyNo");
-		String departureFlyNo = jsonObject.getString("departureFlyNo");
+		//String incomingFlyNo = jsonObject.getString("incomingFlyNo");
+		//String departureFlyNo = jsonObject.getString("departureFlyNo");
 		String planeType = jsonObject.getString("planeType");
 		String task = jsonObject.getString("task");
 		String incomingProg = jsonObject.getString("incomingProg");
@@ -135,9 +135,9 @@ public class SQLUtils {
 		Long realArrival = jsonObject.getLong("realArrival");
 		String alternate = jsonObject.getString("alternate");
 
-		if (incomingFlyNo == null && departureFlyNo == null) {
+		/*if (incomingFlyNo == null && departureFlyNo == null) {
 			return null;
-		}
+		}*/
 		int flag = 0;
 		StringBuilder sb = new StringBuilder("update t_fly_info set");
 		if (planeType != null) {
@@ -227,6 +227,7 @@ public class SQLUtils {
 			}
 
 		}
+		/*
 		if (incomingFlyNo != null) {
 			sb.append(" where incomingflyno='" + incomingFlyNo + "'");
 
@@ -234,7 +235,8 @@ public class SQLUtils {
 		if (departureFlyNo != null) {
 			sb.append(" where departureflyno='" + departureFlyNo + "'");
 		}
-		sb.append(" and id='" + id + "'");
+		*/
+		sb.append(" where id='" + id + "'");
 		return sb.toString();
 	}
 

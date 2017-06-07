@@ -20,6 +20,7 @@ fieldset {
     /* left: -9999px; */
     position:inherit;
     opacity: 10;
+    text-align: left;
 }
 </style>
 </head>
@@ -807,7 +808,7 @@ fieldset {
 		}
 		function connect() {
             //var target = 'ws://192.168.21.29:80${pageContext.request.contextPath}/messageReminder';
-            var target = 'ws://localhost:8080${pageContext.request.contextPath}/messageReminder';
+            var target = 'ws://localhost:8080${pageContext.request.contextPath}/messageReminder.do';
             if (target == '') {
                 alert('Please select server side connection implementation.');
                 return;

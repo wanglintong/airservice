@@ -14,18 +14,34 @@ public class FlyInfoDaoImpl implements FlyInfoDataDao{
 	@PersistenceContext
 	private EntityManager entityManager;
 	@Override
-	public void updateMessageField(JSONObject jsonObject,Long time) {
-		String sql  = SQLUtils.createSQL(jsonObject,time);
+	public void updateMessageField(JSONObject jsonObject) {
+		String sql  = SQLUtils.createSQL(jsonObject);
 		if(sql!=null) {
 			Query query = entityManager.createNativeQuery(sql);
 			query.executeUpdate();
 		}
 	}
 	@Override
+	public void updateMessageFieldBatch(String sqls) {
+		if(sqls!=null) {
+			Query query = entityManager.createNativeQuery(sqls);
+			query.executeUpdate();
+		}
+	}
+	
+	@Override
 	public void updateMessageFieldByFlyInfoId(JSONObject jsonObject, String id) {
 		String sql  = SQLUtils.createSQLByFlyInfoId(jsonObject,id);
 		if(sql!=null) {
 			Query query = entityManager.createNativeQuery(sql);
+			query.executeUpdate();
+		}
+	}
+	
+	@Override
+	public void updateMessageFieldByFlyInfoIdBatch(String sqls) {
+		if(sqls!=null) {
+			Query query = entityManager.createNativeQuery(sqls);
 			query.executeUpdate();
 		}
 	}

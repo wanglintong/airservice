@@ -643,19 +643,7 @@
 	                userId: '${user.id}',
 	                state: 0
 	            }; // define a new row data，certainly it's empty
-	            $('#tb_departments').bootstrapTable('prepend', data); // the
-	            // method
-	            // of
-	            // prepend
-	            // must
-	            // defined
-	            // all
-	            // fields，but
-	            // append
-	            // needn't
-	            // $('#dataTable').bootstrapTable('append',data);
-	            // console.log("!!!"+data.realFly);
-	            // 第一次添加数据
+	            $('#tb_departments').bootstrapTable('append', data); // the
 	            $.ajax({
 	                type: "post",
 	                url: '${pageContext.request.contextPath}/flyDynamic/updateFlyDynamic.do',

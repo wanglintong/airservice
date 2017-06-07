@@ -20,8 +20,8 @@ public interface MessageDao extends JpaRepository<Message, String>{
 	int check(List<String> ids);
 
 	@Modifying
-	@Query(value="update t_message set status=1 where id=?1",nativeQuery=true)
-	int ignore(String id);
+	@Query(value="update t_message set status=1 where id in (?1)",nativeQuery=true)
+	int ignore(List<String> ids);
 	
 	@Query(value="select * from t_message where time=?1 and status=2 order by addtime",nativeQuery=true)
 	List<Message> getCheckedMessageList(String time);
@@ -32,4 +32,7 @@ public interface MessageDao extends JpaRepository<Message, String>{
 	
 	@Query(value="select * from t_message where id in (?1)",nativeQuery=true)
 	List<Message> findMessagesByIds(List<String> ids);
+	
+	@Query(value="select jsonmessage from t_message where id in(?1)",nativeQuery=true)
+	List<String> findJsonMessageListByIds(List<String> ids);
 }
