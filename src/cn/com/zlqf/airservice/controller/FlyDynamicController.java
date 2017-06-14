@@ -88,8 +88,7 @@ public class FlyDynamicController {
 			
 			if(flyInfoList2!=null && flyInfoList2.size()>0) {
 				//2直接插入
-				long publishTime = flyInfoService.getLatestPublishTime();
-				messageHandling(flyInfoList2, publishTime);
+				messageHandling(flyInfoList2);
 				flyInfoService.addFlyInfo(flyInfoList2);
 			}
 			
@@ -123,8 +122,7 @@ public class FlyDynamicController {
 		Map<String,String> map = new HashMap<String,String>();
 		try {
 			List<FlyInfo> flyInfoList = JSON.parseArray(msg, FlyInfo.class);
-			long publishTime = flyInfoService.getLatestPublishTime();
-			messageHandling(flyInfoList, publishTime);
+			messageHandling(flyInfoList);
 			
 			flyInfoService.addFlyInfo(flyInfoList);
 		
@@ -176,8 +174,7 @@ public class FlyDynamicController {
 			map.put("retList3", flyInfoList);
 			//无重复记录
 			if(retList.size()==0) {
-				long publishTime = flyInfoService.getLatestPublishTime();
-				messageHandling(flyInfoList, publishTime);
+				messageHandling(flyInfoList);
 				
 				flyInfoService.addFlyInfo(flyInfoList);
 			
@@ -204,7 +201,7 @@ public class FlyDynamicController {
 			List<FlyInfo> flyInfoList = JSON.parseArray(msg, FlyInfo.class);
 			
 			long publishTime = System.currentTimeMillis();
-			messageHandling(flyInfoList,publishTime);
+			messageHandling(flyInfoList);
 			
 			flyInfoService.publishAll(flyInfoList);
 			
@@ -223,7 +220,7 @@ public class FlyDynamicController {
 		return map;
 	}
 	
-	private void messageHandling(List<FlyInfo> flyInfoList,long publishTime) {
+	private void messageHandling(List<FlyInfo> flyInfoList) {
 		for(int i=0 ; flyInfoList!=null && i<flyInfoList.size() ; ++i) {
 			FlyInfo flyInfo = flyInfoList.get(i);
 			
@@ -255,9 +252,6 @@ public class FlyDynamicController {
 			}
 			flyInfo.setDepartureFlyNo(oldDepartureFlyNo);
 			flyInfo.setIncomingFlyNo(oldIncomingFlyNo);
-			
-			//设置发布时间
-			flyInfo.setPublishTime(publishTime);
 		}
 	}
 }

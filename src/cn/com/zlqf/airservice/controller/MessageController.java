@@ -53,8 +53,10 @@ public class MessageController {
 	public @ResponseBody Map<String,String> check(String ids) {
 		Map<String,String> map = new HashMap<>();
 		try {
+			Long begin = System.currentTimeMillis();
 			messageService.check(ids);
 			map.put("state", "ok");
+			map.put("checktime", (System.currentTimeMillis()-begin)+"");
 		} catch (Exception e) {
 			e.printStackTrace();
 			map.put("state", "error");
@@ -65,9 +67,11 @@ public class MessageController {
 	public @ResponseBody Map<String,String> checkRepeat(String msg) {
 		Map<String,String> map = new HashMap<>();
 		try {
+			Long begin = System.currentTimeMillis();
 			List<Map<String,String>> list  = JSON.parseObject(msg,List.class);
 			messageService.checkRepeat(list);
 			map.put("state", "ok");
+			map.put("checktime", (System.currentTimeMillis()-begin)+"");
 		} catch (Exception e) {
 			e.printStackTrace();
 			map.put("state", "error");

@@ -574,6 +574,7 @@ fieldset {
 										confirmButtonText : "确定"
 									});
 								}
+								console.log("审核用时:"+data.checktime);
 							});
 						}else {
 							var msg = [];//记录messageid:flyInfoId
@@ -617,6 +618,7 @@ fieldset {
 				            	  }else {
 				            		  alert('审核失败');
 				            	  }
+				            	  console.log("审核用时:"+data.checktime);
 				               });
 				            },function(dismiss){});
 						}
@@ -807,8 +809,8 @@ fieldset {
 			return html;
 		}
 		function connect() {
-            //var target = 'ws://192.168.21.29:80${pageContext.request.contextPath}/messageReminder';
-            var target = 'ws://localhost:8080${pageContext.request.contextPath}/messageReminder.do';
+            var target = 'ws://192.168.21.29:80${pageContext.request.contextPath}/messageReminder.do';
+            //var target = 'ws://localhost:8080${pageContext.request.contextPath}/messageReminder.do';
             if (target == '') {
                 alert('Please select server side connection implementation.');
                 return;

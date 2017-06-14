@@ -58,7 +58,7 @@ public class MessageServiceImpl implements MessageService{
 	
 	@Override
 	public void check(String ids) {
-		long begin = System.currentTimeMillis();
+		//long begin = System.currentTimeMillis();
 		if(ids!=null) {
 			List<String> idList = Arrays.asList(ids.split(","));
 			messageDao.check(idList);
@@ -67,20 +67,24 @@ public class MessageServiceImpl implements MessageService{
 			StringBuilder sb = new StringBuilder();
 			for(Message message : messageList) {
 				JSONObject jsonObject = JSON.parseObject(message.getJsonMessage());
-				sb.append(SQLUtils.createSQL(jsonObject) + ";");
+				String sql = SQLUtils.createSQL(jsonObject);
+				if(sql!=null) {
+					sb.append(sql + ";");
+				}
 			}
-			flyInfoDao.updateMessageFieldBatch(sb.toString());
-			//更新redis
-			List<FlyInfo> latestFlyInfoList = flyInfoDao.findAll();
-			redisTemplate.opsForValue().set("flyInfoList", latestFlyInfoList);
+			if(!sb.toString().equals("")) {
+				flyInfoDao.updateMessageFieldBatch(sb.toString());
+				//更新redis
+				List<FlyInfo> latestFlyInfoList = flyInfoDao.findAll();
+				redisTemplate.opsForValue().set("flyInfoList", latestFlyInfoList);
+			}
 		}
-		System.out.println("check time:" + (System.currentTimeMillis()-begin));
 	}
 	
 	@Override
 	public Map<String,List<FlyInfo>> checkFlyNo(String ids) {
 		Map<String,List<FlyInfo>> map = new HashMap<>();
-		long begin = System.currentTimeMillis();
+		//long begin = System.currentTimeMillis();
 		if(ids!=null) {
 			List<Message> messageList = messageDao.findMessagesByIds(Arrays.asList(ids.split(",")));
 			List<FlyInfo> list = flyInfoService.getFlyInfoListFromRedis();
@@ -106,7 +110,7 @@ public class MessageServiceImpl implements MessageService{
 				map.put(message.getId(), saveList);
 			}
 		}
-		System.out.println("checkFlyNo time:" + (System.currentTimeMillis()-begin));
+		//System.out.println("checkFlyNo time:" + (System.currentTimeMillis()-begin));
 		return map;
 	}
 
@@ -141,16 +145,21 @@ public class MessageServiceImpl implements MessageService{
 		List<String> jsonMessageList = messageDao.findJsonMessageListByIds(messageIds);
 		for(int i=0 ; jsonMessageList!=null && i<jsonMessageList.size() ; ++i) {
 			JSONObject parseObject = JSON.parseObject(jsonMessageList.get(i));
-			sb.append(SQLUtils.createSQLByFlyInfoId(parseObject, flyInfoIds.get(i)) + ";");
+			String sql = SQLUtils.createSQLByFlyInfoId(parseObject, flyInfoIds.get(i));
+			if(sql!=null) {
+				sb.append(sql + ";");
+			}
 		}
-		flyInfoDao.updateMessageFieldByFlyInfoIdBatch(sb.toString());
-		
 		//修改报文状态
 		messageDao.check(messageIds);
 		
-		//更新redis
-		List<FlyInfo> latestFlyInfoList = flyInfoDao.findAll();
-		redisTemplate.opsForValue().set("flyInfoList", latestFlyInfoList);
+		if(!sb.toString().equals("")) {
+			flyInfoDao.updateMessageFieldByFlyInfoIdBatch(sb.toString());
+			
+			//更新redis
+			List<FlyInfo> latestFlyInfoList = flyInfoDao.findAll();
+			redisTemplate.opsForValue().set("flyInfoList", latestFlyInfoList);
+		}
 	}
 	
 }

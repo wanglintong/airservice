@@ -44,12 +44,6 @@ public class FlyInfoServiceImpl implements FlyInfoService{
 	}
 	
 	@Override
-	@Deprecated
-	public void saveOrUpdate(List<FlyInfo> flyInfoList) {
-		
-	}
-	
-	@Override
 	public void addFlyInfo(List<FlyInfo> flyInfoList) {
 		flyInfoDao.save(flyInfoList);
 		
@@ -61,21 +55,21 @@ public class FlyInfoServiceImpl implements FlyInfoService{
 	
 	@Override
 	public void updateBaseField(List<FlyInfo> hasPublishFlyInfoList) {
-		long latestPublishTime = this.getLatestPublishTime();
+		//long latestPublishTime = this.getLatestPublishTime();
 		for(int i=0 ; hasPublishFlyInfoList!=null&&i<hasPublishFlyInfoList.size() ; ++i) {
 			FlyInfo flyInfo = hasPublishFlyInfoList.get(i);
 			if(flyInfo.getEstimatedFly()==null) {
 				flyInfo.setEstimatedFly(0l);
 			}
 			if(StringUtils.isNotBlank(flyInfo.getIncomingFlyNo())) {
-				flyInfoDao.updateBaseFieldByIncomingFlyNo(flyInfo.getDepartureFlyNo(), flyInfo.getFlightLine(), flyInfo.getIncomingFlyNo(), flyInfo.getPlaneNo(), flyInfo.getPlaneType(),flyInfo.getEstimatedFly(),flyInfo.getTask(), flyInfo.getRemark(),latestPublishTime);
+				flyInfoDao.updateBaseFieldByIncomingFlyNo(flyInfo.getDepartureFlyNo(), flyInfo.getFlightLine(), flyInfo.getIncomingFlyNo(), flyInfo.getPlaneNo(), flyInfo.getPlaneType(),flyInfo.getEstimatedFly(),flyInfo.getTask(), flyInfo.getRemark());
 			}
 			if(StringUtils.isNotBlank(flyInfo.getDepartureFlyNo())) {
-				flyInfoDao.updateBaseFieldByDepartureFlyNo(flyInfo.getDepartureFlyNo(), flyInfo.getFlightLine(), flyInfo.getIncomingFlyNo(), flyInfo.getPlaneNo(), flyInfo.getPlaneType(),flyInfo.getEstimatedFly(),flyInfo.getTask(), flyInfo.getRemark(),latestPublishTime);
+				flyInfoDao.updateBaseFieldByDepartureFlyNo(flyInfo.getDepartureFlyNo(), flyInfo.getFlightLine(), flyInfo.getIncomingFlyNo(), flyInfo.getPlaneNo(), flyInfo.getPlaneType(),flyInfo.getEstimatedFly(),flyInfo.getTask(), flyInfo.getRemark());
 			}
 		}
 		//更新redis
-		List<FlyInfo> flyInfoListByPublishTime = flyInfoDao.getFlyInfoListByPublishTime(latestPublishTime);
+		List<FlyInfo> flyInfoListByPublishTime = flyInfoDao.findAll();
 		redisTemplate.opsForValue().set("flyInfoList", flyInfoListByPublishTime); 
 	}
 	
@@ -86,17 +80,10 @@ public class FlyInfoServiceImpl implements FlyInfoService{
 		System.out.println("从redis中获取整表....");
 		if(flyInfoList==null || flyInfoList.size()==0) {
 			//redis中的整表失效，从数据库获取整表并更新redis
-			long latestPublishTime = flyInfoDao.getLatestPublishTime();
-			flyInfoList = flyInfoDao.getFlyInfoListByPublishTime(latestPublishTime);
+			flyInfoList = flyInfoDao.findAll();
 			redisTemplate.opsForValue().set("flyInfoList", flyInfoList); 
 			System.out.println("redis中获取整表失败,从数据库中获取整表....");
 		}
 		return flyInfoList;
 	}
-
-	@Override
-	public long getLatestPublishTime() {
-		return flyInfoDao.getLatestPublishTime();
-	}
-
 }

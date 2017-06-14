@@ -60,8 +60,8 @@ public class MessageReceiver implements SerialPortEventListener {
 	
 	@PostConstruct
 	public void start() {
-		//String portName = "/dev/ttyUSB0";
-		String portName = "COM2";
+		String portName = "/dev/ttyUSB0";
+		//String portName = "COM2";
 		try {
 			CommPortIdentifier commPortIdentifier = CommPortIdentifier.getPortIdentifier(portName);
 			SerialPort port = (SerialPort) commPortIdentifier.open("airservice", 1000);
@@ -136,8 +136,8 @@ public class MessageReceiver implements SerialPortEventListener {
 				}else if(message.contains("")) {//收到结束标志
 					System.out.println("收到报文结束标志，开始解析报文");
 					String stringToday = DateUtils.getStringToday("yyyyMMdd");
-					//File file = new File("/home/message/"+stringToday+".txt");
-					File file = new File("d:/log_601.txt");
+					File file = new File("/home/message/"+stringToday+".txt");
+					//File file = new File("d:/log_601.txt");
 					if(!file.exists()) {
 						file.createNewFile();
 					}

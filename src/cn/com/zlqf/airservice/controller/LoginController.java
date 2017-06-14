@@ -56,7 +56,7 @@ public class LoginController {
 			return "login";
 		}else {
 			if(rememberUser) {
-				Cookie cookie = new Cookie("userInfo", URLEncoder.encode(username,"UTF-8")+","+password);
+				Cookie cookie = new Cookie("userInfo", URLEncoder.encode(username,"UTF-8")+", "+password);
 				//设置默认有效期为一周
 				cookie.setMaxAge(60*60*24*7);
 				cookie.setPath("/airservice");
