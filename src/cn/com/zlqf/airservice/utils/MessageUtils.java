@@ -13,6 +13,7 @@ public class MessageUtils {
 	private static Map<String, String> addressMap = BaseUtils.getAddressMap();
 	private static Map<String, String> taskMap = BaseUtils.getTaskMap();
 	private static Map<String,String> flyNoMap = BaseUtils.getFlyNoMap();
+	private static Map<String,Long> flyTimeMap = new HashMap<>();
 	// 解析报文
 	public static String parse(String msg) {
 		msg = msg.replace("\r\n", "");
@@ -145,12 +146,9 @@ public class MessageUtils {
 					prePlanedFly = DateUtils.string2Long(departureAirportTime);
 				}
 			}
-			if (prePlanedFly != null && flyTime != null) {
-				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
-				// 预计达到时间为前站计划起飞时间+预计飞行时间
-				estimatedArrival = prePlanedFly + flyTimeLong;// long类型
-				// 将Long类型的转成long （yyyymmddHHmmss的形式）
-				estimatedArrival = DateUtils.longTolong(estimatedArrival);
+			if(flyTime!=null) {
+				Long flyTimeLong = DateUtils.getFlyTime(flyTime);
+				flyTimeMap.put(incomingFlyNo, flyTimeLong);
 			}
 
 			// 拼接备降站
@@ -180,9 +178,11 @@ public class MessageUtils {
 		if (departureFlyNo != null) {
 			json.put("departureFlyNo", departureFlyNo);
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (planedFly != null) {
 			json.put("planedFly", planedFly);
 		}
@@ -307,12 +307,18 @@ public class MessageUtils {
 					prePlanedFly = DateUtils.string2Long(departureAirportTime);
 				}
 			}
+			/*
 			if (prePlanedFly != null && flyTime != null) {
 				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
 				// 预计达到时间为前站计划起飞时间+预计飞行时间
 				estimatedArrival = prePlanedFly + flyTimeLong;// long类型
 				// 将Long类型的转成long （yyyymmddHHmmss的形式）
 				estimatedArrival = DateUtils.longTolong(estimatedArrival);
+			}
+			*/
+			if(flyTime!=null) {
+				Long flyTimeLong = DateUtils.getFlyTime(flyTime);
+				flyTimeMap.put(incomingFlyNo, flyTimeLong);
 			}
 
 			// 拼接备降站
@@ -345,9 +351,11 @@ public class MessageUtils {
 		if (departureFlyNo != null) {
 			json.put("departureFlyNo", departureFlyNo);
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (planedFly != null) {
 			json.put("planedFly", planedFly);
 		}
@@ -439,6 +447,7 @@ public class MessageUtils {
 					prePlanedFly = DateUtils.string2Long(departureAirportTime);
 				}
 			}
+			/*
 			if (prePlanedFly != null && flyTime != null) {
 				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
 				// 预计达到时间为前站计划起飞时间+预计飞行时间
@@ -446,6 +455,8 @@ public class MessageUtils {
 				// 将Long类型的转成long （yyyymmddHHmmss的形式）
 				estimatedArrival = DateUtils.longTolong(estimatedArrival);
 			}
+			*/
+			flyTimeMap.remove(incomingFlyNo);
 
 			// 拼接备降站
 			alternate = jointAlternate(alternate1, alternate2);
@@ -475,9 +486,11 @@ public class MessageUtils {
 			json.put("departureFlyNo", departureFlyNo);
 			json.put("departureProg", "取消");
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (planedFly != null) {
 			json.put("planedFly", planedFly);
 		}
@@ -504,9 +517,13 @@ public class MessageUtils {
 		if (departureAirport == null || "未知".equals(departureAirport)) {
 			departureAirport = parseG18.get("DEP");
 		}
-
+		
 		// 解析编组16 目的机场和预计飞行总时间 备降站
 		Map<String, String> parseG16 = parseG16(split[3]);
+		
+		// 预计飞行时间
+		String flyTime = parseG16.get("flyTime");
+		
 		String arrivalAirport = parseG16.get("arrivalAirport");
 		if ("未知".equals(arrivalAirport) || arrivalAirport == null) {
 			arrivalAirport = parseG18.get("DEST");
@@ -540,6 +557,8 @@ public class MessageUtils {
 		String departureProg = null;
 		// 进港状态
 		String incomingProg = null;
+		// 预计到达时间
+		Long estimatedArrival = null;
 		// 1.出发地是长治
 		if ("长治".equals(departureAirport)) {
 			departureFlyNo = parseG7(split[1]);// 出发地是长治 则航班号代表出港航班号
@@ -558,11 +577,37 @@ public class MessageUtils {
 			// 计算preRealFly
 			// 需要判断其它信息里是否有DOF这一项的内容 如果有 则时间以DOF为准 如果没有 则时间为当天
 			String dof = parseG18.get("DOF");
+			
+			LogUtil.log("departureAirportTime:"+departureAirportTime, "ceshi");
 			if (dof != null) {
-				preRealFly = DateUtils.string2FormattingLongByDOF(dof, departureAirportTime);
+				preRealFly = DateUtils.string2LongByDOF(dof, departureAirportTime);
 			} else {
-				preRealFly = DateUtils.string2FormattingLong(departureAirportTime);
+				preRealFly = DateUtils.string2Long(departureAirportTime);
 			}
+			LogUtil.log("preRealFly:"+preRealFly, "ceshi");
+			//计算预计到达时间
+			if(flyTime==null) {
+				//起飞报不携带飞行总时间
+				Long flyTimeLong = flyTimeMap.get(incomingFlyNo);
+				LogUtil.log("incomingFlyNo:"+incomingFlyNo, "ceshi");
+				LogUtil.log("flyTimeLong:"+flyTimeLong, "ceshi");
+				if(flyTimeLong!=null) {
+					estimatedArrival = preRealFly + flyTimeLong;// long类型
+					LogUtil.log("estimatedArrival:"+estimatedArrival, "ceshi");
+					// 将Long类型的转成long （yyyymmddHHmmss的形式）
+					estimatedArrival = DateUtils.longTolong(estimatedArrival);
+					LogUtil.log("estimatedArrival:"+estimatedArrival, "ceshi");
+					flyTimeMap.remove(incomingFlyNo);
+				}
+			}else {
+				//起飞报自身携带飞行总时间
+				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
+				// 预计达到时间为前站计划起飞时间+预计飞行时间
+				estimatedArrival = preRealFly + flyTimeLong;// long类型
+				// 将Long类型的转成long （yyyymmddHHmmss的形式）
+				estimatedArrival = DateUtils.longTolong(estimatedArrival);
+			}
+			
 			incomingProg = "前站起飞";
 			// 拼接备降站
 			alternate = jointAlternate(alternate1, alternate2);
@@ -575,6 +620,7 @@ public class MessageUtils {
 			incomingFlyNo = split[1];// 备降站是长治 则航班号代表进港航班号
 			alternate = "长治";
 		}
+		
 		// 将解析的数据封装成JSON
 		JSONObject json = new JSONObject();
 		json.put("messageType", "DEP");
@@ -600,13 +646,16 @@ public class MessageUtils {
 			json.put("realFly", realFly);
 		}
 		if (preRealFly != null) {
-			json.put("preRealFly", preRealFly);
+			json.put("preRealFly", DateUtils.longTolong(preRealFly));
 		}
 		if (departureProg != null) {
 			json.put("departureProg", departureProg);
 		}
 		if (incomingProg != null) {
 			json.put("incomingProg", incomingProg);
+		}
+		if (estimatedArrival!=null) {
+			json.put("estimatedArrival", DateUtils.estimatedArrivalFormat(estimatedArrival));
 		}
 		return json.toJSONString();
 	}
@@ -795,12 +844,17 @@ public class MessageUtils {
 					prePlanedFly = DateUtils.string2Long(departureAirportTime);
 				}
 			}
+			/*
 			if (prePlanedFly != null && flyTime != null) {
 				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
 				// 预计达到时间为前站计划起飞时间+预计飞行时间
 				estimatedArrival = prePlanedFly + flyTimeLong;// long类型
 				// 将Long类型的转成long （yyyymmddHHmmss的形式）
 				estimatedArrival = DateUtils.longTolong(estimatedArrival);
+			}
+			*/
+			if(flyTime!=null) {
+				flyTimeMap.put(incomingFlyNo, DateUtils.getFlyTime(flyTime));
 			}
 			incomingProg = "延误";
 			// 拼接备降站
@@ -829,9 +883,11 @@ public class MessageUtils {
 		if (departureFlyNo != null) {
 			json.put("departureFlyNo", departureFlyNo);
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (planedFly != null) {
 			json.put("planedFly", planedFly);
 		}
@@ -940,6 +996,7 @@ public class MessageUtils {
 					preRealFlyLong = DateUtils.string2Long(departureAirportTime);
 				}
 			}
+			/*
 			if (flyTime != null && parseG14 != null) {
 				Long t = DateUtils.getFlyTime(flyTime);
 				// 预计达到时间为前站计划起飞时间+预计飞行时间
@@ -952,6 +1009,7 @@ public class MessageUtils {
 					estimatedArrival = DateUtils.longTolong(estimatedArrival);
 				}
 			}
+			*/
 			incomingProg = "备降";
 			// 拼接备降站
 			alternate = jointAlternate(alternate1, alternate2);
@@ -979,9 +1037,11 @@ public class MessageUtils {
 		if (departureFlyNo != null) {
 			json.put("departureFlyNo", departureFlyNo);
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (realFly != null) {
 			json.put("realFly", realFly);
 		}
@@ -1323,9 +1383,11 @@ public class MessageUtils {
 		if (departureFlyNo != null) {
 			json.put("departureFlyNo", departureFlyNo);
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (planedFly != null) {
 			json.put("planedFly", planedFly);
 		}
@@ -1448,9 +1510,11 @@ public class MessageUtils {
 		if (departureFlyNo != null) {
 			json.put("departureFlyNo", departureFlyNo);
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (planedFly != null) {
 			json.put("planedFly", planedFly);
 		}
@@ -1573,9 +1637,11 @@ public class MessageUtils {
 		if (departureFlyNo != null) {
 			json.put("departureFlyNo", departureFlyNo);
 		}
+		/*
 		if (estimatedArrival != null) {
 			json.put("estimatedArrival", estimatedArrival);
 		}
+		*/
 		if (planedFly != null) {
 			json.put("planedFly", planedFly);
 		}

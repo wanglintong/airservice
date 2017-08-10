@@ -54,9 +54,14 @@ public class MessageController {
 		Map<String,String> map = new HashMap<>();
 		try {
 			Long begin = System.currentTimeMillis();
-			messageService.check(ids);
+			Map<String, Long> timeMap = messageService.check(ids);
 			map.put("state", "ok");
 			map.put("checktime", (System.currentTimeMillis()-begin)+"");
+			map.put("time1", timeMap.get("time1")+"");
+			map.put("time2", timeMap.get("time2")+"");
+			map.put("time3", timeMap.get("time3")+"");
+			map.put("time4", timeMap.get("time4")+"");
+			map.put("time5", timeMap.get("time5")+"");
 		} catch (Exception e) {
 			e.printStackTrace();
 			map.put("state", "error");
@@ -71,7 +76,7 @@ public class MessageController {
 			List<Map<String,String>> list  = JSON.parseObject(msg,List.class);
 			messageService.checkRepeat(list);
 			map.put("state", "ok");
-			map.put("checktime", (System.currentTimeMillis()-begin)+"");
+			map.put("checkRepeatTime", (System.currentTimeMillis()-begin)+"");
 		} catch (Exception e) {
 			e.printStackTrace();
 			map.put("state", "error");

@@ -11,7 +11,7 @@ import cn.com.zlqf.airservice.entity.Message;
 public interface MessageService {
 	void addMessage(Message message);
 	List<Message> getMessageList(String time);
-	void check(String ids);
+	Map<String,Long> check(String ids);
 	void ignore(String ids);
 	List<Message> getCheckedMessageList();
 	void updateMessageById(String message,String jsonMessage, String messageId);

@@ -57,13 +57,22 @@ public class MessageServiceImpl implements MessageService{
 	
 	
 	@Override
-	public void check(String ids) {
-		//long begin = System.currentTimeMillis();
+	public Map<String,Long> check(String ids) {
+		Map<String,Long> map = new HashMap<String,Long>();
 		if(ids!=null) {
 			List<String> idList = Arrays.asList(ids.split(","));
-			messageDao.check(idList);
-			List<Message> messageList = messageDao.findMessagesByIds(idList);
 			
+			Long beginTime = System.currentTimeMillis();
+			//将message状态设置为审核
+			messageDao.check(idList);
+			map.put("time1", System.currentTimeMillis()-beginTime);
+			
+			//得到审核的message
+			beginTime = System.currentTimeMillis();
+			List<Message> messageList = messageDao.findMessagesByIds(idList);
+			map.put("time2", System.currentTimeMillis()-beginTime);
+			
+			beginTime = System.currentTimeMillis();
 			StringBuilder sb = new StringBuilder();
 			for(Message message : messageList) {
 				JSONObject jsonObject = JSON.parseObject(message.getJsonMessage());
@@ -72,13 +81,22 @@ public class MessageServiceImpl implements MessageService{
 					sb.append(sql + ";");
 				}
 			}
+			map.put("time3", System.currentTimeMillis()-beginTime);
+			
 			if(!sb.toString().equals("")) {
+				beginTime = System.currentTimeMillis();
+				//更新flyInfo
 				flyInfoDao.updateMessageFieldBatch(sb.toString());
+				map.put("time4", System.currentTimeMillis()-beginTime);
+				
+				beginTime = System.currentTimeMillis();
 				//更新redis
 				List<FlyInfo> latestFlyInfoList = flyInfoDao.findAll();
 				redisTemplate.opsForValue().set("flyInfoList", latestFlyInfoList);
+				map.put("time5", System.currentTimeMillis()-beginTime);
 			}
 		}
+		return map;
 	}
 	
 	@Override
@@ -87,7 +105,7 @@ public class MessageServiceImpl implements MessageService{
 		//long begin = System.currentTimeMillis();
 		if(ids!=null) {
 			List<Message> messageList = messageDao.findMessagesByIds(Arrays.asList(ids.split(",")));
-			List<FlyInfo> list = flyInfoService.getFlyInfoListFromRedis();
+			List<FlyInfo> list = flyInfoService.getFlyInfoListFromRedis();//得到最新的航班信息
 			for(Message message : messageList) {
 				ArrayList<FlyInfo> saveList = new ArrayList<>();
 				JSONObject parseObject = JSON.parseObject(message.getJsonMessage());

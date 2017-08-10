@@ -22,16 +22,16 @@ public class SQLUtils {
 			return null;
 		}
 		int flag = 0;
-		StringBuilder sb = new StringBuilder("update t_fly_info set");
+		StringBuilder sb = new StringBuilder("");
 		if (planeType != null) {
 			if (flag == 0) {
-				sb.append(" planetype='" + planeType + "'");
+				sb.append("update t_fly_info set planetype='" + planeType + "'");
 				flag++;
 			}
 		}
 		if (task != null) {
 			if (flag == 0) {
-				sb.append(" task='" + task + "'");
+				sb.append("update t_fly_info set task='" + task + "'");
 				flag++;
 			} else {
 				sb.append(",task='" + task + "'");
@@ -40,7 +40,7 @@ public class SQLUtils {
 		}
 		if (incomingProg != null) {
 			if (flag == 0) {
-				sb.append(" incomingprog='" + incomingProg + "'");
+				sb.append("update t_fly_info set incomingprog='" + incomingProg + "'");
 				flag++;
 			} else {
 				sb.append(",incomingprog='" + incomingProg + "'");
@@ -49,7 +49,7 @@ public class SQLUtils {
 		}
 		if (departureProg != null) {
 			if (flag == 0) {
-				sb.append(" departureprog='" + departureProg + "'");
+				sb.append("update t_fly_info set departureprog='" + departureProg + "'");
 				flag++;
 			} else {
 				sb.append(",departureprog='" + departureProg + "'");
@@ -58,7 +58,7 @@ public class SQLUtils {
 		}
 		if (estimatedArrival != null) {
 			if (flag == 0) {
-				sb.append(" estimatedarrival=" + estimatedArrival);
+				sb.append("update t_fly_info set estimatedarrival=" + estimatedArrival);
 				flag++;
 			} else {
 				sb.append(",estimatedarrival=" + estimatedArrival);
@@ -67,7 +67,7 @@ public class SQLUtils {
 		}
 		if (planedFly != null) {
 			if (flag == 0) {
-				sb.append(" planedfly=" + planedFly);
+				sb.append("update t_fly_info set planedfly=" + planedFly);
 				flag++;
 			} else {
 				sb.append(",planedfly=" + planedFly);
@@ -76,7 +76,7 @@ public class SQLUtils {
 		}
 		if (preRealFly != null) {
 			if (flag == 0) {
-				sb.append(" prerealfly=" + preRealFly);
+				sb.append("update t_fly_info set prerealfly=" + preRealFly);
 				flag++;
 			} else {
 				sb.append(",prerealfly=" + preRealFly);
@@ -85,7 +85,7 @@ public class SQLUtils {
 		}
 		if (realFly != null) {
 			if (flag == 0) {
-				sb.append(" realfly=" + realFly);
+				sb.append("update t_fly_info set realfly=" + realFly);
 				flag++;
 			} else {
 				sb.append(",realfly=" + realFly);
@@ -94,7 +94,7 @@ public class SQLUtils {
 		}
 		if (realArrival != null) {
 			if (flag == 0) {
-				sb.append(" realarrival=" + realArrival);
+				sb.append("update t_fly_info set realarrival=" + realArrival);
 				flag++;
 			} else {
 				sb.append(",realarrival=" + realArrival);
@@ -103,12 +103,15 @@ public class SQLUtils {
 		}
 		if (alternate != null) {
 			if (flag == 0) {
-				sb.append(" alternate='" + alternate + "'");
+				sb.append("update t_fly_info set alternate='" + alternate + "'");
 				flag++;
 			} else {
 				sb.append(",alternate='" + alternate + "'");
 			}
 
+		}
+		if(sb.length()==0) {
+			return null;
 		}
 		if (incomingFlyNo != null) {
 			sb.append(" where incomingflyno='" + incomingFlyNo + "'");
@@ -139,16 +142,16 @@ public class SQLUtils {
 			return null;
 		}*/
 		int flag = 0;
-		StringBuilder sb = new StringBuilder("update t_fly_info set");
+		StringBuilder sb = new StringBuilder("");
 		if (planeType != null) {
 			if (flag == 0) {
-				sb.append(" planetype='" + planeType + "'");
+				sb.append("update t_fly_info set planetype='" + planeType + "'");
 				flag++;
 			}
 		}
 		if (task != null) {
 			if (flag == 0) {
-				sb.append(" task='" + task + "'");
+				sb.append("update t_fly_info set task='" + task + "'");
 				flag++;
 			} else {
 				sb.append(",task='" + task + "'");
@@ -157,7 +160,7 @@ public class SQLUtils {
 		}
 		if (incomingProg != null) {
 			if (flag == 0) {
-				sb.append(" incomingprog='" + incomingProg + "'");
+				sb.append("update t_fly_info set incomingprog='" + incomingProg + "'");
 				flag++;
 			} else {
 				sb.append(",incomingprog='" + incomingProg + "'");
@@ -166,7 +169,7 @@ public class SQLUtils {
 		}
 		if (departureProg != null) {
 			if (flag == 0) {
-				sb.append(" departureprog='" + departureProg + "'");
+				sb.append("update t_fly_info set departureprog='" + departureProg + "'");
 				flag++;
 			} else {
 				sb.append(",departureprog='" + departureProg + "'");
@@ -175,7 +178,7 @@ public class SQLUtils {
 		}
 		if (estimatedArrival != null) {
 			if (flag == 0) {
-				sb.append(" estimatedarrival=" + estimatedArrival);
+				sb.append("update t_fly_info set estimatedarrival=" + estimatedArrival);
 				flag++;
 			} else {
 				sb.append(",estimatedarrival=" + estimatedArrival);
@@ -184,7 +187,7 @@ public class SQLUtils {
 		}
 		if (planedFly != null) {
 			if (flag == 0) {
-				sb.append(" planedfly=" + planedFly);
+				sb.append("update t_fly_info set planedfly=" + planedFly);
 				flag++;
 			} else {
 				sb.append(",planedfly=" + planedFly);
@@ -193,7 +196,7 @@ public class SQLUtils {
 		}
 		if (preRealFly != null) {
 			if (flag == 0) {
-				sb.append(" prerealfly=" + preRealFly);
+				sb.append("update t_fly_info set prerealfly=" + preRealFly);
 				flag++;
 			} else {
 				sb.append(",prerealfly=" + preRealFly);
@@ -202,7 +205,7 @@ public class SQLUtils {
 		}
 		if (realFly != null) {
 			if (flag == 0) {
-				sb.append(" realfly=" + realFly);
+				sb.append("update t_fly_info set realfly=" + realFly);
 				flag++;
 			} else {
 				sb.append(",realfly=" + realFly);
@@ -211,7 +214,7 @@ public class SQLUtils {
 		}
 		if (realArrival != null) {
 			if (flag == 0) {
-				sb.append(" realarrival=" + realArrival);
+				sb.append("update t_fly_info set realarrival=" + realArrival);
 				flag++;
 			} else {
 				sb.append(",realarrival=" + realArrival);
@@ -220,7 +223,7 @@ public class SQLUtils {
 		}
 		if (alternate != null) {
 			if (flag == 0) {
-				sb.append(" alternate='" + alternate + "'");
+				sb.append("update t_fly_info set alternate='" + alternate + "'");
 				flag++;
 			} else {
 				sb.append(",alternate='" + alternate + "'");
@@ -236,6 +239,9 @@ public class SQLUtils {
 			sb.append(" where departureflyno='" + departureFlyNo + "'");
 		}
 		*/
+		if(sb.length()==0) {
+			return null;
+		}
 		sb.append(" where id='" + id + "'");
 		return sb.toString();
 	}

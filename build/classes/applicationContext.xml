@@ -68,7 +68,7 @@
 	
 	<bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">  
 	    <!-- constructor-arg ref="sentinelConfiguration"/ -->
-	    <property name="hostName" value="192.168.9.128" />  
+	    <property name="hostName" value="192.168.0.6" />  
 	    <property name="port" value="6379" />
 	    <property name="poolConfig" ref="jedisPoolConfig" />
 	</bean>  

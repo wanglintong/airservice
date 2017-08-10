@@ -528,6 +528,7 @@
 	                    }else {
 	                    	var html = "<hr/><table>";
 	                    	for(var i=0;i<data.retList.length;++i) {
+	                    		console.log(JSON.stringify(data.retList[i]));
 	                    		html += "<tr><td>进港航班号：" + data.retList[i].incomingFlyNo + "&nbsp&nbsp&nbsp出港航班号：" + data.retList[i].departureFlyNo + "</td></tr>";
 	                    	}
 	                    	html += "<tr><td><br/><br/></td></tr><tr><td>是：覆盖原表相同航班号的航班信息</td></tr>";
@@ -572,53 +573,7 @@
 	                    alert("Error");
 	                }
 	            });
-	            
-	            /*
-	            var hasPublishCount = 0;
-	            for (var i = 0; i < arrselections.length; ++i) {
-	                if (arrselections[i].state == 1) {
-	                    hasPublishCount++;
-	                }
-	            }
-	            swal({
-	                title: "操作提示",
-	                text: hasPublishCount == 0 ? "确认发布选中的" + arrselections.length + "条记录?": "确认发布选中的" + arrselections.length + "条记录?其中有" + hasPublishCount + "条记录已发布，再次发布会覆盖之前的记录",
-	                type: "warning",
-	                showCancelButton: true,
-	                cancelButtonText: '取消',
-	                confirmButtonColor: "#DD6B55",
-	                confirmButtonText: "确定"
-	            }).then(function() {
-	                // 发布选中的记录
-	                $.ajax({
-	                    type: "post",
-	                    url: '${pageContext.request.contextPath}/flyDynamic/publish.do',
-	                    data: {
-	                        "msg": JSON.stringify(arrselections)
-	                    },
-	                    success: function(data) {
-	                        if (data.state == "ok") {
-	                            // 发布成功
-	                            swal({
-	                                title: "操作提示",
-	                                text: hasPublishCount == 0 ? arrselections.length + "条记录发布成功": arrselections.length + "条记录发布成功,其中" + hasPublishCount + "条记录为再次发布",
-	                                type: "success",
-	                                confirmButtonText: "确定"
-	                            }).then(function() {
-	                                $("#tb_departments").bootstrapTable('refresh');
-	                            });
-	                        } else {
-	                            alert("删除失败");
-	                        }
-	                    },
-	                    error: function() {
-	                        alert("删除失败");
-	                    }
-	                });
-	            },
-	            function(dismiss) {});
-	            */
-
+	      
 	        });
 	        $('#btn_add').click(function() {
 	            $('#tb_departments').bootstrapTable('selectPage', 1); // Jump

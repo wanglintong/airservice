@@ -26,8 +26,8 @@ public class BaseUtils {
 		     InputStream is = BaseUtils.class.getClassLoader().getResourceAsStream("hbh.xlsx");
 		     Workbook workbook = WorkbookFactory.create(is); //这种方式 Excel 2003/2007/2010 都是可以处理的  
 		     Sheet sheet = workbook.getSheetAt(0);
-		     //int rowCount = sheet.getPhysicalNumberOfRows(); //获取总行数  
-		     for(int i=1 ; i<78 ; ++i) {
+		     int rowCount = sheet.getPhysicalNumberOfRows(); //获取总行数  
+		     for(int i=1 ; i<rowCount ; ++i) {
 		    	 Row row = sheet.getRow(i);
 		    	 String c1 = row.getCell(1).getStringCellValue();
 		    	 String c2 = row.getCell(2).getStringCellValue();;

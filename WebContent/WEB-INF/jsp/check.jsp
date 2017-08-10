@@ -308,6 +308,7 @@ fieldset {
 																		html += '<fieldset>';
 																		for(var j=0 ; j<len ; ++j) {
 																			var obj = data[key][j];
+																			console.log(JSON.stringify(obj));
 																			html += '<input type="radio" name="' + key + '" data-id="' + obj.id + '">&nbsp;&nbsp;进港航班号:' + obj.incomingFlyNo + " 出港航班号:" + obj.departureFlyNo + " 机型:" + obj.planeType + "<br/>";
 																		}
 																		html += '</fieldset><br/>';
@@ -574,7 +575,12 @@ fieldset {
 										confirmButtonText : "确定"
 									});
 								}
-								console.log("审核用时:"+data.checktime);
+								console.log("审核总用时:"+data.checktime);
+								console.log("报文状态更改用时:"+data.time1);
+								console.log("查询报文用时:"+data.time2);
+								console.log("生成SQL语句用时:"+data.time3);
+								console.log("更新航空信息用时:"+data.time4);
+								console.log("更新Redis用时:"+data.time5);
 							});
 						}else {
 							var msg = [];//记录messageid:flyInfoId
@@ -618,7 +624,7 @@ fieldset {
 				            	  }else {
 				            		  alert('审核失败');
 				            	  }
-				            	  console.log("审核用时:"+data.checktime);
+				            	  console.log("审核用时:"+data.checkRepeatTime);
 				               });
 				            },function(dismiss){});
 						}

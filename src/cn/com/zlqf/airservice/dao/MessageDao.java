@@ -18,7 +18,11 @@ public interface MessageDao extends JpaRepository<Message, String>{
 	@Modifying
 	@Query(value="update t_message set status=2 where id in (?1)",nativeQuery=true)
 	int check(List<String> ids);
-
+	
+	@Query(value="select * from t_message where id in (?1)",nativeQuery=true)
+	List<Message> findMessagesByIds(List<String> ids);
+	
+	
 	@Modifying
 	@Query(value="update t_message set status=1 where id in (?1)",nativeQuery=true)
 	int ignore(List<String> ids);
@@ -29,9 +33,6 @@ public interface MessageDao extends JpaRepository<Message, String>{
 	@Modifying
 	@Query(value="update t_message set message=?1,jsonmessage=?2 where id=?3",nativeQuery=true)
 	void updateMessageById(String message,String jsonMessage, String messageId);
-	
-	@Query(value="select * from t_message where id in (?1)",nativeQuery=true)
-	List<Message> findMessagesByIds(List<String> ids);
 	
 	@Query(value="select jsonmessage from t_message where id in(?1)",nativeQuery=true)
 	List<String> findJsonMessageListByIds(List<String> ids);

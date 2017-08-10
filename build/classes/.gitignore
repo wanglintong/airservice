@@ -1,1 +1,7 @@
+/applicationContext.xml
 /cn/
+/db.properties
+/ehcache.xml
+/fly.xml
+/hbh.xlsx
+/springmvc.xml

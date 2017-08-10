@@ -30,9 +30,8 @@ public class MessageTest {
 	}
 	@Test
 	public void test() {
-		StringBuilder sb = new StringBuilder();
-		String string = sb.toString();
-		System.out.println("".equals(string));
+		StringBuilder sb = new StringBuilder("");
+		System.out.println(sb.length());
 	}
 	
 	@SuppressWarnings("deprecation")

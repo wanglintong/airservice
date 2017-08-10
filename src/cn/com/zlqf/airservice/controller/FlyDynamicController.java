@@ -28,6 +28,7 @@ import cn.com.zlqf.airservice.service.FlyDynamicService;
 import cn.com.zlqf.airservice.service.FlyInfoService;
 import cn.com.zlqf.airservice.utils.BaseUtils;
 import cn.com.zlqf.airservice.utils.DateUtils;
+import cn.com.zlqf.airservice.utils.LogUtil;
 
 @Controller
 public class FlyDynamicController {
@@ -64,6 +65,7 @@ public class FlyDynamicController {
 	
 	@RequestMapping("/flyDynamic/delete")
 	public @ResponseBody Map<String,String> delete(HttpServletRequest request,String idStr) throws Exception {
+		LogUtil.log(new Date().toLocaleString() + ":删除FlyDynamic", "ops");
 		Map<String,String> map = new HashMap<String,String>();
 		String[] ids = idStr.split(",");
 		try {
@@ -77,6 +79,7 @@ public class FlyDynamicController {
 	}
 	@RequestMapping("/flyDynamic/publishSingleUpdate")
 	public @ResponseBody Map<String,String> publishSingleUpdate(HttpServletRequest request,String msg1,String msg2) throws Exception {
+		LogUtil.log(new Date().toLocaleString() + ":发布单条更新", "ops");
 		Map<String,String> map = new HashMap<String,String>();
 		try {
 			//1需要更新   2直接插入
@@ -104,6 +107,7 @@ public class FlyDynamicController {
 				flyDynamicList2.get(i).setState(1);
 			}
 			flyDynamicService.saveOrUpdate(flyDynamicList2);
+			
 			String str = flyDynamicList1.size() + "条记录更新成功";
 			if(flyDynamicList2!=null && flyDynamicList2.size()>0) {
 				str = str + "," + flyDynamicList2.size() + "条记录添加成功";
@@ -119,6 +123,7 @@ public class FlyDynamicController {
 	
 	@RequestMapping("/flyDynamic/publishSingleAdd")
 	public @ResponseBody Map<String,String> publishSingleAdd(HttpServletRequest request,String msg) throws Exception {
+		LogUtil.log(new Date().toLocaleString() + ":发布单条添加", "ops");
 		Map<String,String> map = new HashMap<String,String>();
 		try {
 			List<FlyInfo> flyInfoList = JSON.parseArray(msg, FlyInfo.class);
@@ -140,7 +145,9 @@ public class FlyDynamicController {
 		return map;
 	}
 	
-	
+	/**
+	 * 判断发布的航班号是否已经发布过
+	 */
 	@RequestMapping("/flyDynamic/checkIsPublished")
 	public @ResponseBody Map<String,List<FlyInfo>> checkIsPublished(HttpServletRequest request,String msg) {
 		Map<String,List<FlyInfo>> map = new HashMap<>();
@@ -148,6 +155,27 @@ public class FlyDynamicController {
 			List<FlyInfo> retList = new ArrayList<>();
 			List<FlyInfo> retList2 = new ArrayList<>(); 
 			List<FlyInfo> flyInfoList = JSON.parseArray(msg, FlyInfo.class);
+			for(FlyInfo f:flyInfoList) {
+				String oldDepartureFlyNo = f.getDepartureFlyNo();
+				String oldIncomingFlyNo = f.getIncomingFlyNo();
+				if(StringUtils.isNotBlank(oldDepartureFlyNo)) {
+					String szm = oldDepartureFlyNo.substring(0, 3);
+					String ezm = flyNoMap.get(szm);
+					if(ezm!=null) {
+						oldDepartureFlyNo = oldDepartureFlyNo.replace(szm, ezm);
+					}
+				}
+				if(StringUtils.isNotBlank(oldIncomingFlyNo)) {
+					String szm = oldIncomingFlyNo.substring(0, 3);
+					String ezm = flyNoMap.get(szm);
+					if(ezm!=null) {
+						oldIncomingFlyNo = oldIncomingFlyNo.replace(szm, ezm);
+					}
+				}
+				f.setDepartureFlyNo(oldDepartureFlyNo);
+				f.setIncomingFlyNo(oldIncomingFlyNo);
+			}
+			
 			List<FlyInfo> latestFlyInfoList = flyInfoService.getFlyInfoListFromRedis();
 			
 			for(FlyInfo flyInfo:flyInfoList) {
@@ -194,13 +222,13 @@ public class FlyDynamicController {
 	//发布整表
 	@RequestMapping("/flyDynamic/publishAll")
 	public @ResponseBody Map<String,String> publishAll(HttpServletRequest request,String msg) throws Exception {
+		LogUtil.log(new Date().toLocaleString() + ":发布整表", "ops");
 		Map<String,String> map = new HashMap<String,String>();
 		//只要调用发布整表 则以最新的为准
 		try {
 			//前台传递过来的信息为flyDynamic，将其转变成对应的flyInfo信息
 			List<FlyInfo> flyInfoList = JSON.parseArray(msg, FlyInfo.class);
 			
-			long publishTime = System.currentTimeMillis();
 			messageHandling(flyInfoList);
 			
 			flyInfoService.publishAll(flyInfoList);

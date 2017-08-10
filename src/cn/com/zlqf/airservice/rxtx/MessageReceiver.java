@@ -44,20 +44,7 @@ public class MessageReceiver implements SerialPortEventListener {
 	private OutputStream outputStream;
 	private StringBuilder sb = new StringBuilder();
 	private PrintWriter pw = null;
-	/*
-	private String bytesToHexString(byte[] bArray) {
-		StringBuffer sb = new StringBuffer(bArray.length);
-		String sTemp;
-		for (int i = 0; i < bArray.length; i++) {
-			sTemp = Integer.toHexString(0xFF & bArray[i]);
-			if (sTemp.length() < 2)
-				sb.append(0);
-			sb.append(sTemp.toUpperCase());
-		}
-		return sb.toString();
-	}
-	*/
-	
+
 	@PostConstruct
 	public void start() {
 		String portName = "/dev/ttyUSB0";
