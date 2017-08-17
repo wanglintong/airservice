@@ -2,6 +2,7 @@ package cn.com.zlqf.airservice.test;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,8 +31,7 @@ public class MessageTest {
 	}
 	@Test
 	public void test() {
-		StringBuilder sb = new StringBuilder("");
-		System.out.println(sb.length());
+		System.out.println(new Date().toLocaleString());
 	}
 	
 	@SuppressWarnings("deprecation")

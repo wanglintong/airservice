@@ -10,17 +10,7 @@ import cn.com.zlqf.airservice.entity.FlyDynamic;
 import cn.com.zlqf.airservice.entity.Message;
 import cn.com.zlqf.airservice.entity.User;
 
-public interface MessageDao extends JpaRepository<Message, String>{
-	
-	@Query(value="select * from t_message where time=?1 order by status,addtime asc",nativeQuery=true)
-	List<Message> getMessageList(String time);
-	
-	@Modifying
-	@Query(value="update t_message set status=2 where id in (?1)",nativeQuery=true)
-	int check(List<String> ids);
-	
-	@Query(value="select * from t_message where id in (?1)",nativeQuery=true)
-	List<Message> findMessagesByIds(List<String> ids);
+public interface MessageDao extends JpaRepository<Message, String>,MessageDataDao{
 	
 	
 	@Modifying

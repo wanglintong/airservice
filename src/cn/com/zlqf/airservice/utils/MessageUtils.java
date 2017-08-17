@@ -1,5 +1,6 @@
 package cn.com.zlqf.airservice.utils;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -148,7 +149,10 @@ public class MessageUtils {
 			}
 			if(flyTime!=null) {
 				Long flyTimeLong = DateUtils.getFlyTime(flyTime);
+				LogUtil.log("time:"+new Date().toLocaleString()+" incomingFlyNo:"+incomingFlyNo + "  flyTimeLong:"+flyTimeLong, "FPL-flyTimeMap");
 				flyTimeMap.put(incomingFlyNo, flyTimeLong);
+			}else{
+				LogUtil.log("time:"+new Date().toLocaleString()+" incomingFlyNo:"+incomingFlyNo + "  flyTime:null", "FPL-flyTimeMap");
 			}
 
 			// 拼接备降站
@@ -307,18 +311,12 @@ public class MessageUtils {
 					prePlanedFly = DateUtils.string2Long(departureAirportTime);
 				}
 			}
-			/*
-			if (prePlanedFly != null && flyTime != null) {
-				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
-				// 预计达到时间为前站计划起飞时间+预计飞行时间
-				estimatedArrival = prePlanedFly + flyTimeLong;// long类型
-				// 将Long类型的转成long （yyyymmddHHmmss的形式）
-				estimatedArrival = DateUtils.longTolong(estimatedArrival);
-			}
-			*/
 			if(flyTime!=null) {
 				Long flyTimeLong = DateUtils.getFlyTime(flyTime);
+				LogUtil.log("time:"+new Date().toLocaleString()+" incomingFlyNo:"+incomingFlyNo + "  flyTimeLong:"+flyTimeLong, "CHG-flyTimeMap");
 				flyTimeMap.put(incomingFlyNo, flyTimeLong);
+			}else{
+				LogUtil.log("time:"+new Date().toLocaleString()+" incomingFlyNo:"+incomingFlyNo + "  flyTimeLong:null", "CHG-flyTimeMap");
 			}
 
 			// 拼接备降站
@@ -447,15 +445,7 @@ public class MessageUtils {
 					prePlanedFly = DateUtils.string2Long(departureAirportTime);
 				}
 			}
-			/*
-			if (prePlanedFly != null && flyTime != null) {
-				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
-				// 预计达到时间为前站计划起飞时间+预计飞行时间
-				estimatedArrival = prePlanedFly + flyTimeLong;// long类型
-				// 将Long类型的转成long （yyyymmddHHmmss的形式）
-				estimatedArrival = DateUtils.longTolong(estimatedArrival);
-			}
-			*/
+			LogUtil.log("time:"+new Date().toLocaleString()+" incomingFlyNo:"+incomingFlyNo + " 从MAP中移除 ", "CNL-flyTimeMap");
 			flyTimeMap.remove(incomingFlyNo);
 
 			// 拼接备降站
@@ -843,18 +833,6 @@ public class MessageUtils {
 				} else {
 					prePlanedFly = DateUtils.string2Long(departureAirportTime);
 				}
-			}
-			/*
-			if (prePlanedFly != null && flyTime != null) {
-				Long flyTimeLong = DateUtils.getFlyTime(flyTime);// long类型
-				// 预计达到时间为前站计划起飞时间+预计飞行时间
-				estimatedArrival = prePlanedFly + flyTimeLong;// long类型
-				// 将Long类型的转成long （yyyymmddHHmmss的形式）
-				estimatedArrival = DateUtils.longTolong(estimatedArrival);
-			}
-			*/
-			if(flyTime!=null) {
-				flyTimeMap.put(incomingFlyNo, DateUtils.getFlyTime(flyTime));
 			}
 			incomingProg = "延误";
 			// 拼接备降站

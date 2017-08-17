@@ -107,12 +107,13 @@ public class MessageReceiver implements SerialPortEventListener {
 		 * Data available at the serial port，端口有可用数据。读到缓冲数组，输出到终端
 		 */
 		case SerialPortEvent.DATA_AVAILABLE:
-			byte[] readBuffer = new byte[1024];
+			byte[] readBuffer = new byte[1024*5];
 			String message = "";
 			int len = 0;
 			try {
 				while (inputStream.available() > 0) {
-					len = inputStream.read(readBuffer);
+					len += inputStream.read(readBuffer);
+					//System.out.println("len = " + len);
 				}
 				message = new String(readBuffer, 0, len);
 				message = message.replace("\r\n", "").replace("\n", "").replace("\r", "").replace("\n\r", "");

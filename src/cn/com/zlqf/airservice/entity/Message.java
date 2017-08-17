@@ -22,6 +22,8 @@ public class Message implements Serializable{
 	private String time;
 	//date类型的时间 便于按照报文添加时间进行排序
 	private Date addTime;
+	//审核时间
+	private String checkTime;
 	@Id
 	public String getId() {
 		return id;
@@ -61,6 +63,12 @@ public class Message implements Serializable{
 	}
 	public void setJsonMessage(String jsonMessage) {
 		this.jsonMessage = jsonMessage;
+	}
+	public String getCheckTime() {
+		return checkTime;
+	}
+	public void setCheckTime(String checkTime) {
+		this.checkTime = checkTime;
 	}
 	
 }
